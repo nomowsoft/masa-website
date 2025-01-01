@@ -80,7 +80,7 @@ export default function Footer() {
                     required
                     placeholder="بريدك هنا"
                     autoComplete="email"
-                    className="min-w-0 flex-auto rounded-full mt-10 bg-white px-3.5 py-4 text-base text-customBlue-50 outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-customBlue-50 placeholder:text-xl focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-customBlue-50 sm:text-sm/6 w-80"
+                    className="min-w-0 flex-auto rounded-full mt-10 bg-white px-3.5 py-4 text-base text-customBlue-50 outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-customBlue-50 placeholder:text-xl focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-customBlue-50 sm:text-sm/6 lg:w-80 md:w-72"
                   />
               </div>
             </div>

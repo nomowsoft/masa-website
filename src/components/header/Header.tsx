@@ -18,9 +18,9 @@ const navigation = [
 export default function Header() {
   return (
     <Disclosure as="nav" className={module.header}>
-      <div className="mx-auto  px-2 py-2 sm:px-6 lg:px-8">
+      <div className="mx-auto  px-2 py-6 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
-          <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
             {/* Mobile menu button*/}
             <DisclosureButton className="group relative inline-flex items-center justify-center mx-5 rounded-md p-2 text-gray-400">
               <span className="absolute -inset-0.5" />
@@ -32,14 +32,13 @@ export default function Header() {
           <div className="flex flex-1 items-center justify-start sm:items-stretch">
             <div className="flex shrink-0 items-center mx-10">
               <Image
-                width={50}
-                height={50}
+                width={100}
+                height={70}
                 alt="Your Company"
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
+                src="/masa_logo.svg"
               />
             </div>
-            <div className="hidden sm:ml-6 sm:block mx-20">
+            <div className="hidden sm:ml-6 lg:block mx-20 py-5">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
                   <Link
@@ -54,7 +53,7 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className="absolute inset-y-0 right-0 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 hidden md:flex">
+          <div className="absolute inset-y-0 right-0 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 hidden lg:flex">
             <button
               type="button"
               className="relative rounded-sm  p-1 text-white "
@@ -77,7 +76,7 @@ export default function Header() {
         </div>
       </div>
 
-      <DisclosurePanel className="sm:hidden">
+      <DisclosurePanel className="lg:hidden">
         <div className="space-y-1 px-2 pb-3 pt-2">
           {navigation.map((item) => (
             <DisclosureButton

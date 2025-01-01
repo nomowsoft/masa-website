@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
-      <body className="{`${myFont.className}`}">
+      <body style={{ fontFamily: 'CustomFontName, sans-serif' }}>
         <Header />
         <main>
           {children}

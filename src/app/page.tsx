@@ -6,6 +6,7 @@ import CustomerExperiences from "./Home/customer_experiences/customer_experience
 import WhoAreWe from "./Home/who_are_we/who_are_we"
 import Services from "./Home/services/services"
 import Products from "./Home/products/products"
+import Packages from "./Home/packages/packages"
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <WhoAreWe />
       <Services />
       <Products />
+      <Packages />
     </div>
   );
 }
