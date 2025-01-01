@@ -27,15 +27,22 @@ const Products = () => {
   return (
     <section
       ref={sectionRef}
-      className={`bg-Products bg-center items-center mb-44 lg:mb-0 products ${
+      className={`bg-Products bg-center items-center lg:mb-0 lg-mt- products ${
         isProducts ? "zoomed" : ""
       }`}
     >
       <div>
         <div className="flex justify-center items-center">
-          <div className="overflow-hidden relative mx-96">
-            <h1 className="text-primary text-2xl lg:text-6xl text-center lg:text-right leading-tight mx-10">جانب من خدمات الشركة العربية المتخصصة للاستشارات وتقنية المعلومات</h1>
-            <button className="rounded-lg mt-12 mx-24 bg-secndary py-3 px-2 lg:px-10 text-white text-xl lg:text-2xl">تحدث مع مستشارينا</button>
+          <div className="overflow-hidden relative mx-0 lg:mx-44 xl:mx-96 py-16 md:py-44 lg:py-44 xl:py-96">
+            <div className="top-72">
+              <button className="rounded-3xl bg-primary/60 border-2 border-dashed py-10 px-10 lg:py-20 text-white text-xl">
+                <div className="flex justify-between">
+                  <div className="mx-10 lg:mx-60">
+                    <h1 className="text-4xl text-white" >منتجاتنا</h1>
+                  </div>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
 

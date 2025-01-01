@@ -58,7 +58,7 @@ const WhoAreWe = () => {
                   </div>
                 </div>
               </div>
-              <div className={`lg:relative lg:-top-96 px-10 py-12 lg:py-24 backdrop-blur-md lg:mb-0 bg-primary/30 ${
+              <div className={`lg:relative lg:-top-96 px-1 lg:px-2 xl:px-10 py-1 md:py-12 lg:py-8 xl:py-24 backdrop-blur-md lg:mb-0 bg-primary/30 ${
                   isCover ? "animate-fadeOut" : "ahmed"
                 }`}>
                 <div className="felx items-center justify-center">

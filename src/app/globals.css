@@ -7,6 +7,13 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: 'CustomFontName';
+  src: url('/fonts/Frutiger_LT_Arabic.ttf') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
 main{
   min-height: calc(100vh - 142px);
   direction: rtl;
@@ -73,12 +80,20 @@ body {
 
 .products {
   background-image: url("/products/background_products.png");
-  background-size: 100%;
+  background-size: 120%;
   background-position: center;
-  height: 100vh;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
   transition: background-size 0.9s ease;
 }
 
 .products.zoomed {
-  background-size: 120%;
+  background-size: 140%;
+}
+
+.bg-packages{
+  background-image: url("/packagees/Rectangle.svg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
