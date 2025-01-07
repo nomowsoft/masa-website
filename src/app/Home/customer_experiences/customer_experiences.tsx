@@ -18,10 +18,10 @@ const l = [
 ]
 const CustomerExperiences = () => {
   return (
-    <section className="bg-partner bg-no-repeat bg-bottom">
-      <div className="py-20 mx-20">
+    <section className="md:bg-partner md:bg-no-repeat md:bg-bottom">
+      <div className="py-20 mx-4 lg:mx-20">
         <div className="text-center text-success pb-16">
-          <h1 className="text-4xl" data-aos="zoom-in">عملاؤنا يتحدثون عنا</h1>
+          <h1 className="text-2xl md:text-4xl" data-aos="zoom-in">عملاؤنا يتحدثون عنا</h1>
         </div>
         <div className="">
           <Swiper
@@ -39,10 +39,10 @@ const CustomerExperiences = () => {
                 slidesPerView: 1,
               },
               "@0.75": {
-                slidesPerView: 1,
+                slidesPerView: 2,
               },
               "@1.00": {
-                slidesPerView: 1,
+                slidesPerView: 3,
               },
               "@1.50": {
                 slidesPerView: 3,

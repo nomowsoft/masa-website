@@ -7,6 +7,7 @@ import Hero from "./Home/hero/hero";
 import CustomerExperiences from "./Home/customer_experiences/customer_experiences"
 import Services from "./Home/services/services"
 import Products from "./Home/products/products"
+import Customer from "./Home/customer/customer"
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <CustomerExperiences />
       <Services />
       <Products />
+      <Customer />
     </div>
   );
 }

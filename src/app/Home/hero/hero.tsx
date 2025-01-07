@@ -13,7 +13,7 @@ const l = [
 const Hero = () => {
 
   return (
-    <section className="bg-primary bg-hero bg-no-repeat bg-cover bg-bottom">
+    <section className="bg-primary md:bg-hero md:bg-no-repeat md:bg-cover md:bg-bottom">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-12 lg:px-12">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-success md:text-5xl lg:text-6xl" data-aos="zoom-in">حلول رقمية مبتكرة</h1>
           <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg">
