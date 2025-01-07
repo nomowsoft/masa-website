@@ -1,24 +1,27 @@
 "use client";
-
+"use client";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+import AOS from 'aos';
 import Hero from "./Home/hero/hero";
-import ImportantClients from "./Home/important_clients/important_clients"
 import CustomerExperiences from "./Home/customer_experiences/customer_experiences"
-import WhoAreWe from "./Home/who_are_we/who_are_we"
 import Services from "./Home/services/services"
 import Products from "./Home/products/products"
-import Packages from "./Home/packages/packages"
+
 
 export default function Home() {
-
+  useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    }, []);
   return (
-    <div>
+    <div className="bg-primary">
       <Hero />
-      <ImportantClients />
       <CustomerExperiences />
-      <WhoAreWe />
       <Services />
       <Products />
-      <Packages />
     </div>
   );
 }

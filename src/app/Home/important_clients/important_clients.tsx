@@ -12,12 +12,12 @@ const l = [
 const ImportantClients = () => {
   return (
     <section className="important_clients">
-      <div className="py-12 mx-auto text-center w-full">
+      {/* <div className="py-12 mx-auto text-center w-full">
         <h1 className="text-4xl text-primary">أهم عملائنا الذين يضعون ثقتهم فينا</h1>
-      </div>
+      </div> */}
       <div className="mx-20 grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-1">
         {l?.map((l) => ( 
-            <div key={l.id} className="flex justify-center">
+            <div key={l.id} className="flex justify-center mt-5 mb-10 md:mt-16 md:mb-32">
               <Image
                 src={l.image}
                 width={150}

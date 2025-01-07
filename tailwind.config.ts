@@ -33,12 +33,18 @@ export default {
         fadeOutx: "fadeOutx 0.5s ease-in-out",
       },
       colors: {
-        primary: "#6C247F",
+        primary: "#F3ECF5",
+        success: "#6C247F",
         secndary: "#00B0F0",
         customBlue: {
           50: '#7D007E'
         }
       },
+    },
+    backgroundImage: {
+      hero: "url('/banar/11.svg')",
+      partner: "url('/partner/02.svg')",
+      service: "url('/partner/02.svg')",
     },
   },
   plugins: [],

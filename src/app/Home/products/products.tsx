@@ -1,51 +1,75 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 const Products = () => {
-  const sectionRef = useRef(null);
-  const [isProducts, setIsProducts] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsProducts(entry.isIntersecting && !isProducts);
-      },
-      { threshold: 0.5 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
 
   return (
-    <section
-      ref={sectionRef}
-      className={`bg-Products bg-center items-center lg:mb-0 lg-mt- products ${
-        isProducts ? "zoomed" : ""
-      }`}
-    >
-      <div>
-        <div className="flex justify-center items-center">
-          <div className="overflow-hidden relative mx-0 lg:mx-44 xl:mx-96 py-16 md:py-44 lg:py-44 xl:py-96">
-            <div className="top-72">
-              <button className="rounded-3xl bg-primary/60 border-2 border-dashed py-10 px-10 lg:py-20 text-white text-xl">
-                <div className="flex justify-between">
-                  <div className="mx-10 lg:mx-60">
-                    <h1 className="text-4xl text-white" >منتجاتنا</h1>
-                  </div>
-                </div>
-              </button>
+    <section className="bg-service bg-no-repeat bg-bottom">
+      <div className="pt-44 pb-44">
+        <div className="text-center text-success -mt-24">
+          <h1 className="text-4xl" data-aos="zoom-in">بصمتنا في تحقيق طموحك في التحول الرقمي</h1>
+        </div>
+        <div className="grid xl:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-8 mx-20 py-20" data-aos="fade-up">
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/skyline.png" width={100} height={20} alt="..." />
             </div>
+            <h1>نظام إدارة المؤسسات العقاري</h1>
+            <h1>Real state ERP</h1>
+          </div>
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/hook.png" width={100} height={20} alt="..." />
+            </div>
+            <h1>نظام إدارة موارد المؤسسات للمقاولات</h1>
+            <h1>Construction ERP</h1>
+          </div>
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/call-center-service.png" width={100} height={20} alt="..." />
+            </div>
+            <h1>نظام إدارة المؤسسات لخدمات الصيانة الميدانية</h1>
+            <h1>(خدمة العملاء)</h1>
+          </div>
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/hr.png" width={100} height={20} alt="..." />
+            </div>
+            <h1>نظام الموارد البشرية </h1>
+            <h1>(المتوافق مع أنظمة العمل  السعودي)</h1>
+          </div>
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/self-services.png" width={100} height={20} alt="..." />
+            </div>
+            <h1>بوابة الخدمة الذاتية للموظفين</h1>
+          </div>
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/vendor.png" width={100} height={20} alt="..." />
+            </div>
+            <h1>بوابة الموردين والعملاء</h1>
+          </div>
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/electoral.png" width={100} height={20} alt="..." />
+            </div>
+            <h1>نظام العضوية وإنتخابات المجالس</h1>
+          </div>
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/self-service.png" width={100} height={20} alt="..." />
+            </div>
+            <h1>تطبيق جوال الخدمة الذاتية للموظفين</h1>
+          </div>
+          <div className="text-center text-xl text-success">
+            <div className="flex justify-center">
+              <Image src="/product/assign.png" width={100} height={20} alt="..." />
+            </div>
+            <h1>تطبيق جوال تحضير ومتابعة الموظفين الميدانيين</h1>
           </div>
         </div>
-
       </div>
     </section>
   );

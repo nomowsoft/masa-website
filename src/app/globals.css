@@ -40,13 +40,6 @@ body {
   color: #6C247F;
 }
 
-.swiper-slide-next{
-  transform: scale(0.7) !important;
-}
-.swiper-slide-prev{
-  transform: scale(0.7) !important;
-}
-
 .image-container {
   width: 100%; /* العرض المحدد */
   overflow: hidden; /* منع تجاوز الصورة للمساحة */

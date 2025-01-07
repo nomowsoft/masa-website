@@ -1,31 +1,9 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { FaArrowLeft } from "react-icons/fa6";
 
 
 const Packages = () => {
-  const sectionRef = useRef(null);
-  const [isProducts, setIsProducts] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsProducts(entry.isIntersecting && !isProducts);
-      },
-      { threshold: 0.5 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
 
   return (
     <section className="items-center relative">
