@@ -1,126 +1,63 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 const l = [
   {
     id: 1,
     description: "تحليل وإعداد وثائق المتطلبات (BRD)",
-    image: "/services/analitic.png",
+    image: "/services/analitic.webp",
   },
   {
     id: 2,
     description: "تحليل البيانات وذكاء الأعمال (BI)",
-    image: "/services/BI.png",
+    image: "/services/BI.webp",
   },
-  { id: 3, description: "قياس النضج الرقمي", image: "/services/GAs.png" },
+  { id: 3, description: "قياس النضج الرقمي", image: "/services/GAs.webp" },
   {
     id: 4,
     description: "تطبيقات الجوال Google Flutter",
-    image: "/services/APP.png",
+    image: "/services/APP.webp",
   },
   {
     id: 5,
     description: "تطوير أنظمة إدارة موارد المؤسسة (Odoo ERP)",
-    image: "/services/ERP.png",
+    image: "/services/ERP.webp",
   },
   {
     id: 6,
     description: "تطوير المنصات المنصات والبوابات الالكترونية",
-    image: "/services/website.png",
+    image: "/services/website.webp",
   },
-  { id: 7, description: "خدمات تكنولوجيات الـ AI", image: "/services/AI.png" },
-  { id: 8, description: "الربط والتكامل APIs", image: "/services/APIs.png" },
+  { id: 7, description: "خدمات تكنولوجيات الـ AI", image: "/services/AI.webp" },
+  { id: 8, description: "الربط والتكامل APIs", image: "/services/APIs.webp" },
 ];
 
 const Services = () => {
-  const sectionRef = useRef(null);
-  const [isServices, setIsServices] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsServices(entry.isIntersecting && !isServices);
-      },
-      { threshold: 0.5 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
 
   return (
     <section
-      ref={sectionRef}
-      className="bg-Services bg-center items-center mb-44 lg:-mb-4"
+      className="bg-service bg-no-repeat bg-bottom"
     >
-      <div className="relative top-44 lg:top-0">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="image-container overflow-hidden relative mt-16">
-            <h1 className="text-primary text-2xl lg:text-6xl text-center lg:text-right leading-tight mx-10">
-              {" "}
-              جانب من خدمات الشركة العربية المتخصصة للاستشارات وتقنية المعلومات{" "}
-            </h1>
-            <button
-              className="rounded-lg mt-12 mx-24 bg-secndary py-3 px-2 lg:px-10 text-white text-xl lg:text-2xl"
-            >
-              {" "}
-              تحدث مع مستشارينا{" "}
-            </button>
-          </div>
-          <div className="image-container overflow-hidden relative mt-16">
-            <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 lg:mx-10">
-              {l?.map((l) => (
-                <div key={l.id}>
-                  <div className="flex justify-center items-center">
-                    <Image
-                      src={l.image}
-                      width={100}
-                      height={500}
-                      alt="Picture"
-                    />
-                  </div>
-                  <p className="mt-2 mb-10 mx-5 text-center text-primary">
-                    {l.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
+      <div className="pt-10">
+        <div className="text-center text-success pb-24">
+          <h1 className="text-4xl" data-aos="zoom-in">الخدمات التي نقدمها لعملائنا</h1>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-8 w-full">
-          <div
-            className={`col-span-2 lg:flex items-end justify-start -mt-44 overflow-hidden hidden ${
-              isServices ? "animate-fadeOut visible opacity-100" : ""
-            }`}
-          >
-            <Image
-              src="/services/building.png"
-              width={1200}
-              height={500}
-              alt="Picture"
-            />
-          </div>
-
-          <div
-            className={`flex lg:justify-start justify-center lg:left-12 relative items-center ${
-              isServices ? "lg:animate-fadeOutx visible opacity-100" : ""
-            }`}
-          >
-            <Image
-              src="/services/group.png"
-              width={600}
-              height={500}
-              alt="Picture"
-            />
-          </div>
+        <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 mx-20" data-aos="fade-up">
+          {l?.map((l) => (
+            <div key={l.id}>
+              <div className="flex justify-center items-center">
+                <Image
+                  src={l.image}
+                  width={150}
+                  height={500}
+                  alt="Picture"
+                />
+              </div>
+              <p className="mt-2 mb-10 mx-5 text-center text-xl text-success">
+                {l.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
