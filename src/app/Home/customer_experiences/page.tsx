@@ -1,3 +1,3 @@
-import ImportantClients from "./customer_experiences";
+import CustomerExperiences from "./customer_experiences";
 
-export default ImportantClients
+export default CustomerExperiences

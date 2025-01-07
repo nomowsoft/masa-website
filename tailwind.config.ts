@@ -45,6 +45,7 @@ export default {
       hero: "url('/banar/11.svg')",
       partner: "url('/partner/02.svg')",
       service: "url('/partner/02.svg')",
+      customer: "url('/banar/14.svg')",
     },
   },
   plugins: [],

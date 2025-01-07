@@ -36,11 +36,11 @@ const Services = () => {
 
   return (
     <section
-      className="bg-service bg-no-repeat bg-bottom"
+      className="md:bg-service md:bg-no-repeat md:bg-bottom"
     >
       <div className="pt-10">
         <div className="text-center text-success pb-24">
-          <h1 className="text-4xl" data-aos="zoom-in">الخدمات التي نقدمها لعملائنا</h1>
+          <h1 className="text-2xl md:text-4xl" data-aos="zoom-in">الخدمات التي نقدمها لعملائنا</h1>
         </div>
         <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 mx-20" data-aos="fade-up">
           {l?.map((l) => (
