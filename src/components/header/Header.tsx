@@ -1,25 +1,21 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Navlink from "./nav_link";
+import Link from "next/link";
 
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   const toggleMobileMenu = () => {
     setMobileMenuOpen((prev) => !prev);
   };
 
-  const menuItems = [
-    { name: "الرئسية", href: "#", isActive: true },
-    { name: "الباقات", href: "#", isActive: false },
-  ];
-
   return (
     <header>
-      <nav className="bg-primary border-gray-200 px-4 lg:px-6 py-2.5 md:py-10">
-        <div className="flex flex-wrap justify-between items-center md:mx-20 md:rounded-3xl md:border md:border-success md:p-4 ">
+      <nav className="bg-primary border-gray-200 px-4 lg:px-6 py-2.5 md:py-4">
+        <div className="bg-info flex flex-wrap justify-between items-center md:mx-20 md:rounded-3xl md:border md:border-success md:p-1 ">
           {/* Logo */}
-          <a href="https://flowbite.com" className="flex items-center">
+          <Link href="https://flowbite.com" className="flex items-center">
             <Image
               height={20}
               width={150}
@@ -27,16 +23,16 @@ export default function Header() {
               className="h-16"
               alt="Logo"
             />
-          </a>
+          </Link>
 
           {/* CTA and Mobile Menu Button */}
           <div className="flex items-center lg:order-2">
-            <a
+            <Link
               href="#"
               className="text-primary bg-success hover:bg-primary hover:text-success hover:border hover:border-success ml-4 focus:ring-4 focus:ring-primary-300 text-xl rounded-lg px-2 md:px-4 lg:px-5 py-2 lg:py-2.5 md:mr-2 focus:outline-2"
             >
               أبداء معنا
-            </a>
+            </Link>
             <button
               type="button"
               aria-controls="mobile-menu"
@@ -80,21 +76,7 @@ export default function Header() {
             id="mobile-menu"
           >
             <ul className="flex flex-col mt-4 text-lg lg:flex-row lg:space-x-9 lg:mt-0">
-              {menuItems.map((item) => (
-                <li key={item.name}>
-                  <a
-                    href={item.href}
-                    className={`block py-2 pr-4 pl-3 text-success rounded ${
-                      item.isActive
-                        ? "bg-primary-700 lg:bg-transparent lg:text-primary-700"
-                        : "border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
-                    }`}
-                    aria-current={item.isActive ? "page" : undefined}
-                  >
-                    {item.name}
-                  </a>
-                </li>
-              ))}
+              <Navlink />
             </ul>
           </div>
         </div>

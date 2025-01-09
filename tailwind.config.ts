@@ -35,7 +35,9 @@ export default {
       colors: {
         primary: "#F3ECF5",
         success: "#6C247F",
-        secndary: "#00B0F0",
+        info: "#DFCEE2",
+        secondary: "#17539B",
+        warning: "#25D5FC",
         customBlue: {
           50: '#7D007E'
         }
