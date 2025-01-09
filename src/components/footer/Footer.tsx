@@ -18,7 +18,7 @@ export default function Footer() {
                 </ul>
             </div>
             <hr className="my-6 border-success sm:mx-auto lg:my-8" />
-            <span className="block text-lg text-success text-center">2025 ©<a href="https://flowbite.com/" className="hover:underline">Powerwd py Masa</a></span>
+            <span className="block text-lg text-success text-center">2025 ©<a href="https://flowbite.com/" className="hover:underline">جميع الحقوق محفوظة لشركة ماسا</a></span>
         </div>
     </footer>
   )
