@@ -28,12 +28,12 @@ const l = [
 
 const Customer = () => {
   return (
-    <section className="md:bg-customer md:bg-cover md:bg-bottom">
-      <div className="py-20 mx-4 lg:mx-20">
-        <div className="text-center text-success pb-16">
+    <section className="md:bg-customer md:bg-cover md:bg-bottom ">
+      <div className="py-10 mx-4 lg:mx-20 ">
+        <div className="text-center text-success">
           <h1 className="text-2xl md:text-4xl" data-aos="zoom-in">عملاء نفتخر بهم</h1>
         </div>
-        <div className="flex justify-center items-center lg:pb-10">
+        <div className="flex justify-center items-center lg:pb-32">
           <Swiper
             data-aos="fade-up"
             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}

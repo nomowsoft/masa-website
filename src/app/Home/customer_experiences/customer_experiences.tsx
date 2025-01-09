@@ -18,9 +18,9 @@ const l = [
 ]
 const CustomerExperiences = () => {
   return (
-    <section className="md:bg-partner md:bg-no-repeat md:bg-bottom">
-      <div className="py-20 mx-4 lg:mx-20">
-        <div className="text-center text-success pb-16">
+    <section className="bg-info md:bg-partner md:bg-no-repeat md:bg-cover md:bg-bottom">
+      <div className="pb-9 mx-4 lg:mx-20">
+        <div className="text-center text-success">
           <h1 className="text-2xl md:text-4xl" data-aos="zoom-in">عملاؤنا يتحدثون عنا</h1>
         </div>
         <div className="">
@@ -62,9 +62,9 @@ const CustomerExperiences = () => {
                     يشرح محمد قائلاً: « لقد غيرت منصة Odoo المستندة إلى السحابة قواعد اللعبة بالنسبة لنا ». « لقد سمح لنا بتخزين البيانات الهامة بشكل آمن في السحابة، مما أدى إلى تعزيز كفاءتنا التشغيلية والتطبيق العملي. في السابق، كان استرداد المعلومات أو إدارة المهام مثل المبيعات والتسعير وإدارة البائعين وجهات الاتصال يتطلب بحثًا مكثفًا. »
                     </p>
                     <div>
-                      <hr className="text-5xl border-1 border-success mt-14"/>
+                      <hr className="text-5xl border-1 border-success mt-6"/>
                     </div>
-                    <div className="flex flex-row flex-wrap mt-8 items-center gap-4">
+                    <div className="flex flex-row flex-wrap mt-4 items-center gap-4">
                       <div>
                         <Image
                           className="rounded-full"
