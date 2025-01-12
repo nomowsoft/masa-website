@@ -13,21 +13,21 @@ const Products = () => {
         <div className="grid xl:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-8 mx-20 py-20" data-aos="fade-up">
           <div className="text-center text-xl text-success">
             <div className="flex justify-center">
-              <Image src="/product/residential.png" width={100} height={20} alt="..." />
+              <Image src="/product/real_state.png" width={100} height={20} alt="..." />
             </div>
             <h1>نظام إدارة المؤسسات العقاري</h1>
             <h1>Real state ERP</h1>
           </div>
           <div className="text-center text-xl text-success">
             <div className="flex justify-center">
-              <Image src="/product/hooks.png" width={100} height={20} alt="..." />
+              <Image src="/product/construction.png" width={100} height={20} alt="..." />
             </div>
             <h1>نظام إدارة موارد المؤسسات للمقاولات</h1>
             <h1>Construction ERP</h1>
           </div>
           <div className="text-center text-xl text-success">
             <div className="flex justify-center">
-              <Image src="/product/international-support.png" width={100} height={20} alt="..." />
+              <Image src="/product/client_service.png" width={100} height={20} alt="..." />
             </div>
             <h1>نظام إدارة المؤسسات لخدمات الصيانة الميدانية</h1>
             <h1>(خدمة العملاء)</h1>
@@ -53,7 +53,7 @@ const Products = () => {
           </div>
           <div className="text-center text-xl text-success">
             <div className="flex justify-center">
-              <Image src="/product/electorals.png" width={100} height={20} alt="..." />
+              <Image src="/product/election_system.png" width={100} height={20} alt="..." />
             </div>
             <h1>نظام العضوية وإنتخابات المجالس</h1>
           </div>
@@ -65,7 +65,7 @@ const Products = () => {
           </div>
           <div className="text-center text-xl text-success">
             <div className="flex justify-center">
-              <Image src="/product/assign-app.png" width={100} height={20} alt="..." />
+              <Image src="/product/assign.png" width={100} height={20} alt="..." />
             </div>
             <h1>تطبيق جوال تحضير ومتابعة الموظفين الميدانيين</h1>
           </div>

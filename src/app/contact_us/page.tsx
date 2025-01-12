@@ -2,10 +2,10 @@
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import AOS from 'aos';
-import Package from './package';
+import Contactus from './contact_us';
 
 
-export default function Packages() {
+export default function Contact() {
   useEffect(() => {
       AOS.init({
         duration: 1000,
@@ -14,7 +14,7 @@ export default function Packages() {
     }, []);
   return (
     <div className="bg-primary">
-        <Package />
+        <Contactus />
     </div>
   );
 }

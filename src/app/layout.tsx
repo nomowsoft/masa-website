@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-// import localFont from 'next/font/local'
-// const myFont = localFont({ src: '' })
+import Image from "next/image";
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Masa Website",
@@ -23,6 +23,19 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <div style={{
+          position: "fixed",
+          left: "2rem",
+          bottom: "5rem",
+          zIndex: 1000, // للتأكد من أنها تظهر فوق جميع العناصر الأخرى
+        }}>
+          <Link  href="https://wa.me/+9660510350361" target="_blank" className="block lg:hidden">
+            <Image src="/footer/whatsapp.png" alt="..." width={60} height={20} />
+          </Link>
+          <Link  href="https://web.whatsapp.com/send?phone=+966 0510350361" target="_blank" className="hidden lg:block">
+            <Image src="/footer/whatsapp.png" alt="..." width={60} height={20} />
+          </Link>
+        </div>
       </body>
     </html>
   );
