@@ -7,10 +7,10 @@ const Hero = () => {
     <section className="bg- bg-customer bg-cover bg-bottom lg:pb-16 xl:pb-24">
       <div className="py-6 px-4 mx-auto max-w-screen-xl text-center lg:py-6 lg:px-12">
           <h1 className="mb-4 text-2xl md:text-4xl font-extrabold tracking-tight leading-none text-success" data-aos="zoom-in">حلول رقمية مبتكرة</h1>
-          <div className="text-success mx-5 md:mx-20">
+          <div className="text-success mx-5 md:mx-12">
             <h1 className="xl:text-2xl" data-aos="fade-down">
-            شركة ماسا تكنولوجي هي وحدة الاعمال الرقمية للشركة العربية المتخصصة للاستشارت وتقنية المعلومات .تقدم الخدمات التقنية المختلفة والاستشارات وتوفير الموارد التقنية  لتمكين العملاء من تحقيق اهدافهم في رحلة التحول الرقمي بطريقة مثالية تساعد متخذي القرار على معرفة العائد على الاستثمار (ORI )
-            نفتخر بشراكتنا مع شركة اودوو منذ 10 سنوات في تقديم نموذج تحول رقمي مميز يتحدث عنه العملاء
+            شركة ماسا تكنولوجي هي وحدة الأعمال الرقمية للشركة العربية المتخصصة للاستشارات وتقنية المعلومات. تقدم خدمات تقنية متنوعة واستشارات وتوفر الموارد التقنية لتمكين العملاء من تحقيق أهدافهم في رحلة التحول الرقمي بطريقة مثالية تساعد متخذي القرار على معرفة العائد على الاستثمار (ROI).
+            نفتخر بشراكتنا مع شركة أودوو منذ 10 سنوات في تقديم نموذج تحول رقمي مميز يتحدث عنه العملاء.
             </h1>
           </div>
           <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg">
