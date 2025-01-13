@@ -21,7 +21,7 @@ const ImportantCustomer = () => {
   return (
     <section className="bg-info">
       <div className="pb-9 mx-4 lg:mx-20">
-        <div className="mx-auto text-center w-full">
+        <div className="xl:pb-5 mx-auto text-center w-full">
           <h1 className="lg:text-2xl xl:text-4xl text-success">عملاء نفتخر بهم</h1>
         </div>
         <div className="px-4 mx-auto text-center mt-2 md:mt-0">
