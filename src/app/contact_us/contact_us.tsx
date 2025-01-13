@@ -77,9 +77,9 @@ const Contactus = () => {
   ];
 
   return (
-    <section className="bg-primary bg-customer bg-cover bg-bottom pb-10">
-      <div className="px-4 mx-auto max-w-2xl lg:py-20">
-        <h2 className="mb-4 text-xl font-bold text-success">تواصل معنا</h2>
+    <section className="bg-primary bg-customer bg-cover bg-bottom md:py-6 xl:py-16">
+      <div className="px-4 mx-auto max-w-2xl pb-20 lg:pb-32">
+        <h2 className="mb-4 text-xl font-bold text-success pt-10 md:pt-0">تواصل معنا</h2>
         <form action="#">
           <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
             <FormInput label="الأسم" type="text" id="name" placeholder="أدخل الاسم" required />

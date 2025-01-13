@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header>
       <nav className="bg-primary border-gray-200 px-4 lg:px-6 py-2.5 md:py-4">
-        <div className="bg-info flex flex-wrap justify-between items-center md:mx-20 rounded-3xl border border-success md:p-1 ">
+        <div className="bg-info flex flex-wrap justify-between items-center md:mx-20 rounded-3xl border border-success md:p-1.5 ">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
@@ -24,8 +24,6 @@ export default function Header() {
               alt="Logo"
             />
           </Link>
-
-          {/* CTA and Mobile Menu Button */}
           <div className="flex items-center lg:order-2">
             <Link
               href="/contact_us"
@@ -75,9 +73,7 @@ export default function Header() {
             } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
             id="mobile-menu"
           >
-            <ul className="flex flex-col mt-4 text-lg lg:flex-row lg:space-x-9 lg:mt-0">
-              <Navlink />
-            </ul>
+            <Navlink />
           </div>
         </div>
       </nav>

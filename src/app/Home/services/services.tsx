@@ -5,31 +5,31 @@ const l = [
   {
     id: 1,
     description: "تحليل وإعداد وثائق المتطلبات (BRD)",
-    image: "/services/analitic.webp",
+    image: "/services/brd-Ico.png",
   },
   {
     id: 2,
     description: "تحليل البيانات وذكاء الأعمال (BI)",
-    image: "/services/BI.webp",
+    image: "/services/BI-Ico.png",
   },
-  { id: 3, description: "قياس النضج الرقمي", image: "/services/GAs.webp" },
+  { id: 3, description: "قياس النضج الرقمي", image: "/services/Qiyas-Ico.png" },
   {
     id: 4,
     description: "تطبيقات الجوال Google Flutter",
-    image: "/services/APP.webp",
+    image: "/services/application.png",
   },
   {
     id: 5,
     description: "تطوير أنظمة إدارة موارد المؤسسة (Odoo ERP)",
-    image: "/services/ERP.webp",
+    image: "/services/ERP-Ico.png",
   },
   {
     id: 6,
     description: "تطوير المنصات المنصات والبوابات الالكترونية",
-    image: "/services/website.webp",
+    image: "/services/portals&Platform.png",
   },
-  { id: 7, description: "خدمات تكنولوجيات الـ AI", image: "/services/AI.webp" },
-  { id: 8, description: "الربط والتكامل APIs", image: "/services/APIs.webp" },
+  { id: 7, description: "خدمات تكنولوجيات الـ AI", image: "/services/AI-Ico.png" },
+  { id: 8, description: "الربط والتكامل APIs", image: "/services/API-Ico.png" },
 ];
 
 const Services = () => {
@@ -44,7 +44,7 @@ const Services = () => {
         </div>
         <div className="text-center text-success mx-auto max-w-screen-xl">
           <div className="mx-50 md:mx-20">
-            <h1 className="text-2xl pb-4" data-aos="zoom-in">
+            <h1 className="md:text-2xl pb-4" data-aos="zoom-in">
             عام 2015 م انطلقنا في رحلة التحول الرقمي لعملائنا اعتمادا على   منصة Odoo , نهتم بكل التفاصيل التي تساعد العملاء في تحقيق اهدافهم في الحصول على انظمة مؤائمة لمختلف النشاطات ةضمان استمرارية الاعمال من خلال التميز في خدمة مابعد البيع
             </h1>
           </div>
