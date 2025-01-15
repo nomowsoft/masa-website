@@ -9,24 +9,25 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/module
 
 
 const l = [
-  {"id": 1, "image": '/important_customer/image7.png'},
-  {"id": 2, "image": '/important_customer/image2.png'},
-  {"id": 3, "image": '/important_customer/image3.png'},
-  {"id": 4, "image": '/important_customer/image4.png'},
-  {"id": 5, "image": '/important_customer/image5.png'},
-  {"id": 6, "image": '/important_customer/image6.png'},
-  {"id": 7, "image": '/important_customer/image1.png'},
+  {"id": 1, "image": '/important_customer/c1.svg'},
+  {"id": 2, "image": '/important_customer/c2.svg'},
+  {"id": 3, "image": '/important_customer/c3.svg'},
+  {"id": 4, "image": '/important_customer/c4.png'},
+  {"id": 5, "image": '/important_customer/c5.svg'},
+  {"id": 6, "image": '/important_customer/c6.svg'},
+  // {"id": 7, "image": '/important_customer/c7.svg'},
+  {"id": 8, "image": '/important_customer/c8.png'},
 ]
 const ImportantCustomer = () => {
   return (
     <section className="bg-info">
-      <div className="pb-9 mx-4 lg:mx-20">
+      <div className="pb-2 mx-4 lg:mx-20">
         <div className="xl:pb-5 mx-auto text-center w-full">
           <h1 className="lg:text-2xl xl:text-4xl text-success">عملاء نفتخر بهم</h1>
         </div>
         <div className="px-4 mx-auto text-center mt-2 md:mt-0">
             <div className="flex flex-wrap justify-center items-center text-success sm:justify-center">
-            <Swiper
+              <Swiper
                 data-aos="fade-up"
                 modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 autoplay={{
@@ -59,6 +60,7 @@ const ImportantCustomer = () => {
                         width={200}
                         height={80}
                         alt="Picture"
+                        className="h-20"
                       />
                     </div>
                   </SwiperSlide>
