@@ -44,23 +44,23 @@ const Services = () => {
         </div>
         <div className="text-center text-success mx-auto max-w-screen-xl">
           <div className="mx-50 md:mx-20">
-            <h1 className="md:text-2xl pb-4" data-aos="zoom-in">
+            <h1 className="md:text-xl pb-4" data-aos="zoom-in">
             عام 2015م، انطلقنا في رحلة التحول الرقمي لعملائنا اعتمادًا على منصة Odoo. نهتم بكل التفاصيل التي تساعد العملاء في تحقيق أهدافهم من خلال الحصول على أنظمة ملائمة لمختلف الأنشطة وضمان استمرارية الأعمال عبر التميز في خدمة ما بعد البيع.
             </h1>
           </div>
         </div>
-        <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 mx-20" data-aos="fade-up">
+        <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-x-8 mx-5 md:mx-16" data-aos="fade-up">
           {l?.map((l) => (
             <div key={l.id}>
               <div className="flex justify-center items-center">
                 <Image
                   src={l.image}
-                  width={150}
+                  width={80}
                   height={500}
                   alt="Picture"
                 />
               </div>
-              <p className="mt-2 mb-10 mx-5 text-center text-xl text-success">
+              <p className="mt-2 mb-5 mx-5 text-center text-xl text-success">
                 {l.description}
               </p>
             </div>

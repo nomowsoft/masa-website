@@ -20,7 +20,7 @@ export default function Header() {
               height={20}
               width={150}
               src="/navbar/logo_masa.svg"
-              className="h-16"
+              className="lg:h-16 xl:h-24"
               alt="Logo"
             />
           </Link>
