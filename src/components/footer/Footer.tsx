@@ -27,16 +27,16 @@ export default function Footer() {
                         </Link>
                     </div>
                     <div className="flex flex-wrap justify-center items-center  text-success sm:justify-center">
-                        <div className="flex items-center mx-5" data-aos="fade-down">
+                        <div className="flex items-center mx-5">
                             <Image src="/banar/odoo14.png" width={70} height={20} alt="..." />
                         </div>
-                        <div className="flex items-center mx-5" data-aos="fade-down">
+                        <div className="flex items-center mx-5">
                             <Image src="/banar/odoo15.png" width={70} height={20} alt="..." />
                         </div>
-                        <div className="flex items-center mx-5" data-aos="fade-down">
+                        <div className="flex items-center mx-5">
                             <Image src="/banar/odoo16.png" width={70} height={20} alt="..." />
                         </div>
-                        <div className="flex items-center mx-5" data-aos="fade-down">
+                        <div className="flex items-center mx-5">
                             <Image src="/banar/odoo17.png" width={70} height={20} alt="..." />
                         </div>
                     </div>
