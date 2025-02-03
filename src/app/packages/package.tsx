@@ -117,7 +117,7 @@ const Package = () => {
                             <span>10 ساعات استشارات مالية ومتابعة  العمل خلال الشهر الأول من الإنطلاق</span>
                         </li>
                     </ul>
-                    <a href="#" className="mt-auto text-primary bg-success hover:bg-primary hover:border hover:border-success hover:text-success rounded-lg text-sm px-5 py-2.5 text-center">الحصول على</a>
+                    <a href="#" className="mt-auto text-primary bg-success hover:bg-primary hover:border hover:border-success hover:text-success rounded-lg text-sm px-5 py-2.5 text-center">الحصول على السعر</a>
                 </div>
             </div>
         </div>
