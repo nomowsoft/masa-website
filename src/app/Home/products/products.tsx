@@ -36,41 +36,41 @@ const Products = () => {
   return (
     <section className="bg-info">
       <div className="pt-10 lg:pb-10">
-        <div className="text-center text-success">
+        <div className="text-center text-success" data-aos="fade-up">
           <h1 className="text-xl md:text-2xl xl:text-5xl my-8" data-aos="zoom-in">فريقنا</h1>
         </div>
         <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-x-8 mx-5 max-w-screen-xl md:mx-auto">
-                  {l?.map((l) => (
-                    <div key={l.id} className="mb-5">
-                      <div className="flex justify-center items-center">
-                        <Image
-                          src={l.image}
-                          width={150}
-                          height={500}
-                          className="rounded-full"
-                          alt="Picture"
-                        />
-                      </div>
-                      <p className="mt-2 mx-5 text-center text-xl text-success">
-                        {l.name}
-                      </p>
-                      <p className="mx-5 text-center text-black mt-2">
-                        {l.function}
-                      </p>
-                      <div className="flex justify-center items-center mt-4">
-                        <div className="mx-1">
-                          <FaFacebook className="container size-8 text-blue-500"/>
-                        </div>
-                        <div className="mx-1">
-                          <FaGithub className="container size-8 text-gray-600" />
-                        </div>
-                        <div className="mx-1">
-                          <FaXTwitter className="container size-8" />
-                        </div>
-                      </div>
-                    </div>
-                  ))}
+          {l?.map((l) => (
+            <div key={l.id} className="mb-5" data-aos="fade-up">
+              <div className="flex justify-center items-center">
+                <Image
+                  src={l.image}
+                  width={150}
+                  height={500}
+                  className="rounded-full"
+                  alt="Picture"
+                />
+              </div>
+              <p className="mt-2 mx-5 text-center text-xl text-success">
+                {l.name}
+              </p>
+              <p className="mx-5 text-center text-black mt-2">
+                {l.function}
+              </p>
+              <div className="flex justify-center items-center mt-4">
+                <div className="mx-1">
+                  <FaFacebook className="container size-8 text-blue-500" />
                 </div>
+                <div className="mx-1">
+                  <FaGithub className="container size-8 text-gray-600" />
+                </div>
+                <div className="mx-1">
+                  <FaXTwitter className="container size-8" />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
     // <section className="bg-info">
