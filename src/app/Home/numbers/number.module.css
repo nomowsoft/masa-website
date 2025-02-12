@@ -1,0 +1,25 @@
+.approach_address{
+    background: linear-gradient(to left, #04AF73 , #FFFFFF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.approach_address2{
+    background: linear-gradient(to left, #6C247F , #e28ef3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.prev_custom,.next_custom {
+        
+    background: rgb(155,227,212);
+    background: linear-gradient(90deg, rgba(155,227,212,1) 20%, rgba(29,142,118,1) 100%);
+    border: none;
+    color: #FFFFFF;
+}
+  
+.prev_custom:hover,
+.next_custom:hover {
+    
+    background: rgb(155,227,212);
+    background: linear-gradient(90deg, rgba(155,227,212,1) 20%, rgba(29,142,118,1) 100%);
+}

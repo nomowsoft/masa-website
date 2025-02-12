@@ -3,8 +3,8 @@ import Navitem from "./nav_item";
 
 const menuItems = [
     { name: "الرئسية", href: "/", isActive: true },
-    { name: "الباقات", href: "/packages", isActive: false },
-    { name: "الدعم الفني", href: "http://support.masa.sa", isActive: false },
+    { name: "الباقات", href: "#", isActive: false },
+    { name: "الدعم الفني", href: "#", isActive: false },
 ];
 
 const Navlink = () => {

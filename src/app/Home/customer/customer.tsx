@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import module from "./customer.module.css";
 
 type Customer = { id: number; image: string };
 
@@ -76,11 +77,16 @@ const Customer = () => {
   }, []);
 
   return (
-    <section className="bg-customer bg-cover bg-bottom">
-      <div className="py-10 mx-4 lg:mx-20">
-        <div className="text-center text-success">
-          <h1 className="text-2xl md:text-5xl pb-4" data-aos="zoom-in">
+    <section>
+      <section className={`${module.bg_shape_5} hidden lg:block`} />
+      <section className={`${module.bg_shape_6} hidden lg:block`} />
+      <div className="mx-auto max-w-screen-xl py-20">
+        <div className="text-center">
+          <h1 className={`${module.address_customer} text-5xl max-w-screen-lg mx-auto h-20`}>
             عملاؤنا
+          </h1>
+          <h1 className="pb-8 text-2xl max-w-screen-lg mx-auto text-gray-600">
+            نحن نعتز بعلاقاتنا طويلة الأمد مع عملائنا الذين يثقون بنا في تقديم أفضل الحلول التقنية. نجاحنا ينبع من رضا عملائنا وسعينا المستمر لتقديم خدمات تفوق توقعاتهم.
           </h1>
         </div>
         <div className="flex justify-center items-center lg:pb-32">

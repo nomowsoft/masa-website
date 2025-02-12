@@ -17,6 +17,7 @@
     "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.5.1",
+    "framer-motion": "^12.4.2",
     "next": "15.1.0",
     "react": "^19.0.0",
     "react-animations": "^1.0.0",
