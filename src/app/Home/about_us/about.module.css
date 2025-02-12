@@ -1,0 +1,10 @@
+.text_address{
+    background: linear-gradient(to left, #6C247F , #e28ef3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.address_about{
+    background: linear-gradient(to left, #6C247F , #e28ef3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
