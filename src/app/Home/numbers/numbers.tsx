@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import module from "./number.module.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -130,60 +131,3 @@ const Numbers = () => {
 }
 
 export default Numbers;
-
-
-{/* <div className="max-w-screen-xl mx-auto flex flex-wrap gap-2 items-center mt-20" data-aos="fade-up">
-            <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                autoplay={{
-                  delay: 3000,
-                  disableOnInteraction: false,
-                }}
-                loop={true}
-                spaceBetween={50}
-                slidesPerView={1}
-                navigation={{
-                  nextEl: ".custom-swiper-button-prev",
-                  prevEl: ".custom-swiper-button-next",
-                }}
-                breakpoints={{
-                  "@0.00": {
-                    slidesPerView: 1,
-                  },
-                  "@0.75": {
-                    slidesPerView: 2,
-                  },
-                  "@1.00": {
-                    slidesPerView: 4,
-                  },
-                  "@1.50": {
-                    slidesPerView: 4,
-                  },
-                }}
-            >
-                {manage_team?.map((team) => (
-                    <SwiperSlide key={team.id} className="bg-white p-5 rounded-3xl shadow-lg border border-green-500">
-                        <p className="text-justify text-gray-600">
-                            {team.description}
-                        </p>
-                        <div className="mt-5 flex items-center">
-                            <div>
-                                <Image src={team.image} className="rounded-full" alt="" width={50} height={20} />
-                            </div>
-                            <div className="mx-5">
-                                <p className="text-success">
-                                    {team.name}
-                                </p>
-                                <p>
-                                    {team.function}
-                                </p>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
-            <div className="custom-swiper-navigation flex mt-3 justify-start">
-              <div className={`custom-swiper-button-next mx-2 px-4 py-2 rounded-lg text-white`}>❮</div>
-              <div className={`custom-swiper-button-prev mx-2 px-4 py-2 rounded-lg text-white`}>❯</div>
-            </div>
-          </div> */}
