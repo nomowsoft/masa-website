@@ -1,6 +1,4 @@
 "use client";
-
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -53,33 +51,10 @@ const customers = [
   { id: 41, image: "/customer/c41.svg" },
 ];
 
-const chunkArray = <T,>(array: T[], size: number): T[][] => {
-  const chunks: T[][] = [];
-  for (let i = 0; i < array.length; i += size) {
-    chunks.push(array.slice(i, i + size));
-  }
-  return chunks;
-};
-
 const Customer = () => {
-  const [groupedCustomers, setGroupedCustomers] = useState<Customer[][]>([]); // Explicit type
-
-  useEffect(() => {
-    const updateGroups = () => {
-      const screenWidth = window.innerWidth;
-      const chunkSize = screenWidth < 768 ? 4 : 18;
-      setGroupedCustomers(chunkArray(customers, chunkSize));
-    };
-
-    updateGroups();
-    window.addEventListener("resize", updateGroups);
-    return () => window.removeEventListener("resize", updateGroups);
-  }, []);
 
   return (
-    <section>
-      <section className={`${module.bg_shape_5} hidden lg:block`} />
-      <section className={`${module.bg_shape_6} hidden lg:block`} />
+    <section className="bg-about bg-no-repeat bg-right bg-contain px-20">
       <div className="mx-auto max-w-screen-xl py-20">
         <div className="text-center">
           <h1 className={`${module.address_customer} text-5xl max-w-screen-lg mx-auto h-20`}>
@@ -89,9 +64,8 @@ const Customer = () => {
             نحن نعتز بعلاقاتنا طويلة الأمد مع عملائنا الذين يثقون بنا في تقديم أفضل الحلول التقنية. نجاحنا ينبع من رضا عملائنا وسعينا المستمر لتقديم خدمات تفوق توقعاتهم.
           </h1>
         </div>
-        <div className="flex justify-center items-center lg:pb-32">
+        <div className="lg:pb-32">
           <Swiper
-            data-aos="fade-up"
             modules={[Navigation, Pagination, Autoplay]}
             autoplay={{
               delay: 3000,
@@ -99,33 +73,48 @@ const Customer = () => {
             }}
             loop={true}
             spaceBetween={50}
-            slidesPerView={1}
+            slidesPerView={6}
+            navigation={{
+              nextEl: ".customer-swiper-button-prev",
+              prevEl: ".customer-swiper-button-next",
+            }}
+            breakpoints={{
+              "@0.00": {
+                slidesPerView: 1,
+              },
+              "@0.75": {
+                slidesPerView: 2,
+              },
+              "@1.00": {
+                slidesPerView: 4,
+              },
+              "@1.50": {
+                slidesPerView: 6,
+              },
+            }}
           >
-            {groupedCustomers.map((group, index) => (
+            {customers.map((customer, index) => (
               <SwiperSlide key={index} className="flex justify-center items-center">
-                <div
-                  className={`grid gap-4 ${
-                    window.innerWidth < 768 ? "grid-cols-2 grid-rows-2" : "grid-cols-6 grid-rows-3"
-                  }`}
-                >
-                  {group.map((customer) => (
-                    <div
-                      key={customer.id}
-                      className="h-[150px] flex justify-center items-center overflow-hidden rounded-lg"
-                    >
-                      <Image
-                        src={customer.image}
-                        width={150}
-                        height={80}
-                        alt="Customer"
-                        className="object-contain h-24"
-                      />
-                    </div>
-                  ))}
+                <div className="rounded-xl bg-white shadow-lg my-5 border border-success">
+                  <div
+                    className="h-[150px] flex justify-center items-center overflow-hidden rounded-lg"
+                  >
+                    <Image
+                      src={customer.image}
+                      width={150}
+                      height={80}
+                      alt="Customer"
+                      className="object-contain h-24"
+                    />
+                  </div>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
+          <div className="custom-swiper-navigation1 flex mt-3 justify-end">
+            <div className={`customer-swiper-button-next mx-2 px-4 py-2 rounded-lg text-success cursor-pointer`}>❮</div>
+            <div className={`customer-swiper-button-prev mx-2 px-4 py-2 rounded-lg text-success cursor-pointer`}>❯</div>
+          </div>
         </div>
       </div>
     </section>

@@ -2,9 +2,12 @@
 import Navitem from "./nav_item";
 
 const menuItems = [
-    { name: "الرئسية", href: "/", isActive: true },
-    { name: "الباقات", href: "#", isActive: false },
-    { name: "الدعم الفني", href: "#", isActive: false },
+    { id: 1, name: "الرئسية", href: "/", isActive: true },
+    { id: 2, name: "نبذة عنا", href: "#", isActive: false },
+    { id: 3, name: "المنهجية", href: "#", isActive: false },
+    { id: 4, name: "الإدارة", href: "#", isActive: false },
+    { id: 5, name: "الفريق", href: "#", isActive: false },
+    { id: 6, name: "العملاء", href: "#", isActive: false },
 ];
 
 const Navlink = () => {
@@ -13,7 +16,7 @@ const Navlink = () => {
             {menuItems.map((item) => (
                 <Navitem
                     name={item.name}
-                    key={item.name}
+                    key={item.id}
                     href={item.href}
                 />
             ))}

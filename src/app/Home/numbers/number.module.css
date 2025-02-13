@@ -9,17 +9,9 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-.prev_custom,.next_custom {
-        
-    background: rgb(155,227,212);
-    background: linear-gradient(90deg, rgba(155,227,212,1) 20%, rgba(29,142,118,1) 100%);
-    border: none;
-    color: #FFFFFF;
-}
-  
-.prev_custom:hover,
-.next_custom:hover {
-    
-    background: rgb(155,227,212);
-    background: linear-gradient(90deg, rgba(155,227,212,1) 20%, rgba(29,142,118,1) 100%);
+
+.image_approach {
+    width: 83%;
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(103deg);
+    border-radius: 35px;
 }

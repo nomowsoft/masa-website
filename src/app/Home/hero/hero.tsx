@@ -32,8 +32,8 @@ const Hero = () => {
           <div className={`${module.composition_6_decoration_2} hidden md:block`}>
             <Image src="/banar/decoration-1.svg" alt="mockup" width={650} height={20} data-aos="fade-up" />
           </div>
-          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <Image src="/banar/download.png" alt="mockup" width={650} height={20} data-aos="fade-up" />
+          <div className="lg:col-span-5 flex justify-center lg:justify-end items-center">
+            <Image src="/banar/repot.svg" alt="mockup" width={650} height={20} data-aos="fade-up" />
           </div>
         </div>
       </section>
