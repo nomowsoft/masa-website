@@ -47,7 +47,7 @@ export default {
     backgroundImage: {
       hero: "url('/banar/4191634_2221759.svg')",
       about: "url('/about/back.svg')",
-      about2: "url('/about/back4.svg')",
+      about2: "url('/about/back3.svg')",
       partner: "url('/partner/02.svg')",
       service: "url('/partner/02.svg')",
       product: "url('/product/01.svg')",

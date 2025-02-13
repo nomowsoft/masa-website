@@ -19,7 +19,7 @@ const l = [
 ]
 const SocialMedia = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center mt-5">
         {l?.map((l) => (
             <div className="mx-2 mt-2" key={l.id} >
                 <SocialMediaLink  icon={l.icon} href={l.href} />
