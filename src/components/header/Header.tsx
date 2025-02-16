@@ -24,7 +24,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      className={`top-0 absolute left-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? "bg-white shadow-lg" : "bg-transparent"
       }`}
     >
@@ -90,7 +90,7 @@ export default function Header() {
             </svg>
           </button>
           {/* Contact Us Button */}
-          <div className="hidden lg:flex items-center lg:order-2">
+          <div className="hidden lg:flex items-center lg:order-2 fixed left-48">
             <Link
               href="#"
               className={`${module.contact_us} ml-4 focus:ring-4 focus:ring-primary-300 text-xl rounded-lg px-2 md:px-4 lg:px-5 py-2 lg:py-2.5 md:mr-2 focus:outline-2`}

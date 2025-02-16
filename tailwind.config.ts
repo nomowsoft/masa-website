@@ -33,7 +33,7 @@ export default {
         fadeOutx: "fadeOutx 0.5s ease-in-out",
       },
       colors: {
-        primary: "#F3ECF5",
+        primary: "#F1E2F8",
         success: "#6C247F",
         info: "#DFCEE2",
         secondary: "#17539B",
