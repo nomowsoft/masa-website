@@ -33,7 +33,7 @@ const Hero = () => {
             <Image src="/banar/decoration-1.svg" alt="mockup" width={650} height={20} data-aos="fade-up" />
           </div>
           <div className="lg:col-span-5 flex justify-center lg:justify-end items-center">
-            <Image src="/banar/repot.svg" alt="mockup" width={650} height={20} data-aos="fade-up" />
+            <Image src="/banar/download (3).svg" alt="mockup" width={650} height={20} data-aos="fade-up" />
           </div>
         </div>
       </section>
