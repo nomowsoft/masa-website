@@ -54,13 +54,13 @@ const customers = [
 const Customer = () => {
 
   return (
-    <section className="bg-about bg-no-repeat bg-right bg-contain px-20">
+    <section className="bg-about bg-no-repeat bg-right bg-contain px-5 lg:px-20">
       <div className="mx-auto max-w-screen-xl py-20">
-        <div className="text-center">
-          <h1 className={`${module.address_customer} text-5xl max-w-screen-lg mx-auto h-20`}>
+        <div className="lg:text-center">
+          <h1 className={`${module.address_customer} text-5xl max-w-screen-lg mx-auto h-16 lg:h-20`}>
             عملاؤنا
           </h1>
-          <h1 className="pb-8 text-2xl max-w-screen-lg mx-auto text-gray-600">
+          <h1 className="pb-8 text-lg text-justify lg:text-center lg:text-2xl max-w-screen-lg mx-auto text-gray-600">
             نحن نعتز بعلاقاتنا طويلة الأمد مع عملائنا الذين يثقون بنا في تقديم أفضل الحلول التقنية. نجاحنا ينبع من رضا عملائنا وسعينا المستمر لتقديم خدمات تفوق توقعاتهم.
           </h1>
         </div>

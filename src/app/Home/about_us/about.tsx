@@ -33,7 +33,7 @@ const About = () => {
           <h1 data-aos="fade-down" className={`${module.address_about} h-20 text-5xl font-extrabold tracking-tight leading-none md:text-6xl xl:text-7xl`}>
             حلول رقمية مبتكرة
           </h1>
-          <p data-aos="fade-down" className="max-w-4xl mt-6 text-success lg:text-2xl text-justify">
+          <p data-aos="fade-down" className="max-w-4xl mt-6 text-gray-600 lg:text-2xl text-justify">
             شركة ماسا تكنولوجي هي وحدة الأعمال الرقمية للشركة العربية المتخصصة للاستشارات وتقنية المعلومات. تقدم خدمات تقنية متنوعة واستشارات وتوفر الموارد التقنية لتمكين العملاء من تحقيق أهدافهم في رحلة التحول الرقمي بطريقة مثالية تساعد متخذي القرار على معرفة العائد على الاستثمار (ROI). نفتخر بشراكتنا مع شركة أودوو منذ 10 سنوات في تقديم نموذج تحول رقمي مميز يتحدث عنه العملاء.        </p>
         </div>
       </div>
