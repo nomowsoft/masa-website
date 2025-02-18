@@ -14,7 +14,7 @@ const manage_team = [
 
 const Managment = () => {
     return (
-        <section className="py-10 lg:py-44 px-5 md:px-20 md:bg-about bg-no-repeat bg-right bg-contain">
+        <section className="py-10 xl:py-44 px-5 md:px-20 md:bg-about bg-no-repeat bg-right bg-contain">
             <div className="max-w-screen-xl mx-auto grid grid-cols-1">
                 <div>
                     <h1 className={`${module.approach_address2} lg:text-center text-5xl lg:text-8xl h-16 lg:h-32`}>إدارتنا</h1>

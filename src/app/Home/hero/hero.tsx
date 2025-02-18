@@ -26,15 +26,9 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className={`${module.composition_6_decoration_1} hidden md:block`}>
-            <Image src="/banar/decoration-1.svg" alt="mockup" width={650} height={20} data-aos="fade-up" />
-          </div>
-          <div className={`${module.composition_6_decoration_2} hidden md:block`}>
-            <Image src="/banar/decoration-1.svg" alt="mockup" width={650} height={20} data-aos="fade-up" />
-          </div>
-          <div className="lg:col-span-5 hidden lg:flex justify-center lg:justify-end items-center">
-            <Image src="/banar/download (3).svg" alt="mockup" width={650} height={20} data-aos="fade-up" />
-          </div>
+            <div className="hidden lg:col-span-5 lg:flex justify-center lg:justify-end items-center" data-aos="fade-up">
+              <Image src="/banar/download (1) (3).png" alt="mockup" width={1000} height={600} />
+            </div>
         </div>
       </section>
     </div>
