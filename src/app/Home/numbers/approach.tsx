@@ -12,7 +12,7 @@ export const Approach = () => {
                     </p>
                 </div>
                 <div className="flex justify-center mt-10 md:mt-0 md:justify-end items-center">
-                    <Image src="/about/innovation-future Technology2.jpg" alt="..." width={500} height={20} className={`rounded-3xl h-96`} />
+                    <Image src="/about/innovation-future Technology2.jpg" alt="..." width={600} height={20} className={`rounded-3xl`} />
                 </div>
             </div>
         </section>

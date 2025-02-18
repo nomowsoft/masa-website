@@ -11,7 +11,7 @@ const Hero = () => {
       <section className={`${module.bg_shape_6} hidden lg:block`} />
       <section>
         <div className="grid px-4 py-32 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 max-w-screen-xl h-screen">
-          <div className="place-self-center lg:col-span-7">
+          <div className="place-self-center lg:col-span-6">
             <h1 data-aos="fade-down" className={`${module.text_address} h-32 max-w-2xl mb-4 text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-8xl text-success`}>ماسا للتقنية </h1>
             <p data-aos="fade-down" className="max-w-2xl mb-6 text-gray-600 lg:mb-8 md:tex lg:text-2xl text-justify">
             في عالم الأعمال المتطور، تحتاج مؤسستك إلى حلول تقنية مبتكرة لتبقى في الصدارة. نحن نقدم لك أحدث التقنيات التي تسهم في تحسين إدارة العمليات وتبسيط المهام اليومية، مما يساعدك على زيادة الإنتاجية وتحقيق أهدافك بكفاءة أعلى. انطلق معنا اليوم وابدأ في تحويل مؤسستك إلى نموذج رقمي متطور يواكب متطلبات المستقبل. لا تتردد، تواصل معنا الآن وكن جزءًا من نجاحنا
@@ -26,8 +26,8 @@ const Hero = () => {
               </a>
             </div>
           </div>
-            <div className="hidden lg:col-span-5 lg:flex justify-center lg:justify-end items-center" data-aos="fade-up">
-              <Image src="/banar/download (1) (3).png" alt="mockup" width={1000} height={600} />
+            <div className="hidden lg:col-span-6 lg:flex justify-center lg:justify-start items-center" data-aos="fade-up">
+              <Image src="/banar/2307938_311979-P8VFSY-655 (1).png" alt="mockup" width={1200} height={600} />
             </div>
         </div>
       </section>
