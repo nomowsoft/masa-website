@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-success py-8 px-20">
+    <footer className="bg-success py-8 px-5 lg:px-20">
         <div className="mx-auto max-w-screen-2xl">
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="mt-0 mx-3 md:mx-0">
@@ -21,16 +21,16 @@ export default function Footer() {
                 <div className="flex flex-col justify-center md:justify-end md:items-end mt-16 md:mt-0">
                     <div className="flex gap-8 justify-center pb-10">
                         <div>
-                            <Link href="/" className="text-white text-xl">الرئسية</Link>
+                            <Link href="/" className="text-white text-sm lg:text-xl">الرئسية</Link>
                         </div>
                         <div>
-                            <Link href="/" className="text-white text-xl">الباقات</Link>
+                            <Link href="/" className="text-white text-sm lg:text-xl">الباقات</Link>
                         </div>
                         <div>
-                            <Link href="/" className="text-white text-xl">الدعم الفني</Link>
+                            <Link href="/" className="text-white text-sm lg:text-xl">الدعم الفني</Link>
                         </div>
                         <div>
-                            <Link href="/" className="text-white text-xl">تواصل معنا</Link>
+                            <Link href="/" className="text-white text-sm lg:text-xl">تواصل معنا</Link>
                         </div>
                     </div>
                     <div className="mb-6 md:mb-0 text-xl text-white mt-5 md:mt-0 grid grid-cols-1 md:grid-cols-2 text-center md:text-right">
@@ -38,7 +38,7 @@ export default function Footer() {
                             <div className="md:hidden mx-2 flex justify-center">
                                 <span><FaLocationDot /></span>
                             </div>
-                            <div className="text-lg md:text-left">
+                            <div className="lg:text-lg md:text-left">
                                 <p>P.O.Box 295940</p>
                                 <p>12612 Riyadh</p>
                                 <p>المملكة العربية السعودية</p>
@@ -50,7 +50,7 @@ export default function Footer() {
                         <div>
                             <div className="md:flex flex-wrap justify-end  mt-2 items-center">
                                 <div>
-                                    <p className="text-lg">+966 53 780 2802</p>
+                                    <p className="lg:text-lg">+966 53 780 2802</p>
                                 </div>
                                 <div className="mx-2 flex justify-center">
                                     <FaPhone />
@@ -68,7 +68,7 @@ export default function Footer() {
                             </div>
                             <div className="md:flex flex-wrap justify-end mt-2 items-center">
                                 <div>
-                                    <p className="text-lg">info@masa.sa</p>
+                                    <p className="lg:text-lg">info@masa.sa</p>
                                 </div>
                                 <div className="mx-2 flex justify-center">
                                     <MdEmail />
