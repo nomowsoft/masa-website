@@ -14,7 +14,7 @@
     width: 34.375%;
     height: 100%;
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(108,36,127,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(102, 104, 107) 100%);
 
 }
 
@@ -23,8 +23,8 @@
     left: 90%;
     width: 35.325%;
     padding-top: 35.325%;
-    background: rgb(182,102,203);
-    background: linear-gradient(90deg, rgba(182,102,203,1) 44%, rgba(108,36,127,1) 100%);
+    background: rgb(102, 104, 107);
+    background: linear-gradient(90deg, rgb(102, 104, 107) 44%, rgb(102, 104, 107) 100%);
     border-radius: 100%;
     transform: translate(9.7%, -50%) rotate(90deg);
 }

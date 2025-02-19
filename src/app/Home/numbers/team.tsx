@@ -21,7 +21,7 @@ const manage_team = [
 
 const Team = () => {
     return (
-        <section className="py-6 xl:py-32 px-5 lg:px-20 bg-primary md:bg-about2 bg-no-repeat bg-left bg-contain">
+        <section className="py-6 xl:py-32 px-5 lg:px-20 bg-gray-200 md:bg-about2 bg-no-repeat bg-left bg-contain">
             <div className="max-w-screen-md mx-auto grid grid-cols-1">
                 <div>
                     <h1 className={`${module.approach_address} text-5xl lg:text-8xl lg:text-center h-16 lg:h-32`}>فريقنا</h1>
@@ -59,7 +59,7 @@ const Team = () => {
                     }}
                 >
                     {manage_team?.map((team) => (
-                        <SwiperSlide key={team.id} className="bg-white p-5 rounded-3xl shadow-lg border border-green-500">
+                        <SwiperSlide key={team.id} className="bg-white p-5 rounded-3xl shadow-lg border border-success">
                             <div>
                                 <div className="flex justify-center">
                                     <Image src={team.image} className="rounded-full border border-success" alt="" width={100} height={20} />
