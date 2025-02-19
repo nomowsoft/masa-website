@@ -3,17 +3,17 @@ import SocialMediaLink from "./social_media_link"
 const l = [
     {
         'id': 1,
-        'icon': '/footer/facebook.png',
+        'icon': '/footer/facebook (2).png',
         'href': 'https://www.facebook.com/masatechsa'
     },
     {
         'id': 2,
-        'icon': '/footer/twitter.png',
+        'icon': '/footer/twitter-alt-circle (1).png',
         'href': 'https://x.com/masatechsa'
     },
     {
         'id': 3,
-        'icon': '/footer/linkedin.png',
+        'icon': '/footer/linkedin (2).png',
         'href': 'https://www.linkedin.com/company/masatechsa'
     },
 ]

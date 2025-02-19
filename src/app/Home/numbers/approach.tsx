@@ -3,7 +3,7 @@ import module from "./number.module.css";
 
 export const Approach = () => {
     return (
-        <section className="py-10  xl:py-44 px-5 md:px-20 bg-primary md:bg-about2 bg-no-repeat bg-left bg-contain">
+        <section className="py-10  xl:py-44 px-5 md:px-20 bg-gray-200 md:bg-about2 bg-no-repeat bg-left bg-contain">
             <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
                 <div>
                     <h1 className={`${module.approach_address} text-5xl lg:text-8xl h-16 lg:h-32`}>منهجيتنا</h1>
@@ -12,7 +12,7 @@ export const Approach = () => {
                     </p>
                 </div>
                 <div className="flex justify-center mt-10 md:mt-0 md:justify-end items-center">
-                    <Image src="/about/innovation-future Technology2.jpg" alt="..." width={600} height={20} className={`rounded-3xl`} />
+                    <Image src="/about/digital-screen-filled-with-data-information.png" alt="..." width={600} height={20} className={`rounded-3xl`} />
                 </div>
             </div>
         </section>
