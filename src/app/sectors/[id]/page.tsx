@@ -16,14 +16,6 @@ const SectorItem = async ({ params }: SingleSectorPageProps) => {
     return (
         <section className="max-w-screen-3xl mx-auto bg-about3 bg-cover bg-no-repeat">
             <div className="bg-gray-200 pt-44 pb-20">
-                <div className="flex justify-center md:justify-start items-center max-w-screen-2xl mx-auto">
-                    <Link href="/sectors" className="text-center border border-success rounded-full text-success py-2 px-4 text-2xl hover:bg-success hover:text-white">
-                        <span className="ml-2">
-                            &#8702;	
-                        </span>
-                        <span>القطاعات</span>
-                    </Link>
-                </div>
                 <h1 className="text-success text-6xl mt-4 text-center h-20">القطاع الخيري</h1>
                 <div className="max-w-screen-lg mx-auto text-center text-success text-4xl pb-8">
                     <p className="text-gray-600 pt-5 text-center text-3xl mt-4">
@@ -61,6 +53,14 @@ const SectorItem = async ({ params }: SingleSectorPageProps) => {
                         </Link>
                         <Link href="#" rel="stylesheet" className="bg-success text-white px-4 py-2 rounded-xl mx-4">
                             أطلب الأن
+                        </Link>
+                    </div>
+                    <div className="flex justify-center md:justify-start items-center max-w-screen-2xl mx-auto mt-10">
+                        <Link href="/sectors" className="text-center border border-success rounded-xl text-success py-2 px-4 text-2xl hover:bg-success hover:text-white">
+                            <span className="ml-2">
+                                &#8702;	
+                            </span>
+                            <span>القطاعات</span>
                         </Link>
                     </div>
                 </div>
