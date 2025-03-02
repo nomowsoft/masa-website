@@ -93,7 +93,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center lg:order-2 fixed left-48">
             <Link
               href="#"
-              className={`${module.contact_us} ml-4 focus:ring-4 focus:ring-primary-300 text-xl rounded-lg px-2 md:px-4 lg:px-5 py-2 lg:py-2.5 md:mr-2 focus:outline-2`}
+              className={`${module.contact_us} ml-4 focus:ring-4 focus:ring-primary-300 hover:animate-bounce text-xl rounded-lg px-2 md:px-4 lg:px-5 py-2 lg:py-2.5 md:mr-2 focus:outline-2`}
             >
               تواصل معنا
             </Link>
