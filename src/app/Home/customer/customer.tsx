@@ -60,7 +60,7 @@ const Customer = () => {
           <h1 className={`${module.address_customer} text-5xl max-w-screen-lg mx-auto h-16 lg:h-20`}>
             عملاؤنا
           </h1>
-          <h1 className="pb-8 text-lg text-justify lg:text-center lg:text-2xl max-w-screen-lg mx-auto text-gray-600">
+          <h1 className="pb-8 text-lg text-justify lg:text-center lg:text-xl max-w-screen-lg mx-auto text-gray-600">
             نحن نعتز بعلاقاتنا طويلة الأمد مع عملائنا الذين يثقون بنا في تقديم أفضل الحلول التقنية. نجاحنا ينبع من رضا عملائنا وسعينا المستمر لتقديم خدمات تفوق توقعاتهم.
           </h1>
         </div>

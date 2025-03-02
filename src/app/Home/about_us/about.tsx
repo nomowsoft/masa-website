@@ -14,7 +14,7 @@ const About = () => {
             </div>
             <div className="bg-white shadow-lg rounded-2xl p-6 w-44" data-aos="fade-up" data-aos-delay="200">
               <FaUsers className="text-7xl text-success mx-auto" />
-              <h2 className="text-3xl font-bold mt-4">+500</h2>
+              <h2 className="text-3xl font-bold mt-4">+45</h2>
               <p className="text-gray-600 text-xl">الفريق</p>
             </div>
             <div className="bg-white shadow-lg rounded-2xl p-6 w-44" data-aos="fade-up" data-aos-delay="200">
@@ -33,8 +33,8 @@ const About = () => {
           <h1 data-aos="fade-down" className={`${module.address_about} h-20 text-5xl font-extrabold tracking-tight leading-none md:text-6xl xl:text-7xl`}>
             حلول رقمية مبتكرة
           </h1>
-          <p data-aos="fade-down" className="max-w-4xl mt-6 text-gray-600 lg:text-2xl text-justify">
-            شركة ماسا تكنولوجي هي وحدة الأعمال الرقمية للشركة العربية المتخصصة للاستشارات وتقنية المعلومات. تقدم خدمات تقنية متنوعة واستشارات وتوفر الموارد التقنية لتمكين العملاء من تحقيق أهدافهم في رحلة التحول الرقمي بطريقة مثالية تساعد متخذي القرار على معرفة العائد على الاستثمار (ROI). نفتخر بشراكتنا مع شركة أودوو منذ 10 سنوات في تقديم نموذج تحول رقمي مميز يتحدث عنه العملاء.        </p>
+          <p data-aos="fade-down" className="max-w-4xl mt-6 text-gray-600 lg:text-xl text-justify">
+          في ماسا، الابتكار ليس خيارًا، بل هو جزء من هويتنا. نحن نعمل على تطوير حلول تقنية متقدمة تتماشى مع احتياجات السوق وتوقعات عملائنا. من البرمجيات المصممة خصيصًا لدعم العمليات التجارية، إلى استراتيجيات التحول الرقمي التي تعيد تعريف طريقة عمل المؤسسات، نقدم حلولًا شاملة تعزز الإنتاجية، وتوفر تجربة سلسة للعملاء، وتضمن أداءً متفوقًا في بيئة أعمال تتسم بالتغير المستمر. كما أننا ندرك أهمية الأمان الرقمي في عالم مترابط، لذا نحرص على تقديم حلول متكاملة تحمي بيانات الشركات وتضمن بيئة تشغيل آمنة ومستقرة.          </p>
         </div>
       </div>
     </section>
