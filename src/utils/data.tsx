@@ -1,4 +1,5 @@
-import { Sector } from "./types"
+import { Sector, Service } from "./types"
+
 export const sectors: Sector[] = [
     {
         id: 1,
@@ -41,5 +42,56 @@ export const sectors: Sector[] = [
         image: "/sectors/repot.webp",
         title: "قطاع تحفيظ القرآن",
         body: "بالإضافة إلى ذلك، تقدم MASA خدمات استشارية متخصصة في تقنية المعلومات، تتضمن تطوير البرمجيات، وإدارة البيانات، وحلول البنية التحتية، وأمن المعلومات. تهدف هذه الخدمات إلى دعم المؤسسات التعليمية في تحقيق التحول الرقمي وتعزيز كفاءتها التشغيلية. بالإضافة إلى ذلك، تقدم MASA خدمات استشارية متخصصة في تقنية المعلومات، تتضمن تطوير البرمجيات، وإدارة البيانات، وحلول البنية التحتية، وأمن المعلومات. تهدف هذه الخدمات إلى دعم المؤسسات التعليمية في تحقيق التحول الرقمي وتعزيز كفاءتها التشغيلية."
+    },
+]
+
+export const service: Service[] = [
+    {
+        id: 1,
+        title: "تنفيذ المشاريع",
+        image: "/service/brd-Ico.png",
+        number_image: "/service/01.png",
+    },
+    {
+        id: 2,
+        title: "الدعم الفني",
+        image: "/service/BI-Ico.png",
+        number_image: "/service/02.png",
+    },
+    {
+        id: 3,
+        title: "الاستشارات",
+        image: "/service/Qiyas-Ico.png",
+        number_image: "/service/03.png",
+    },
+    {
+        id: 4,
+        title: "التكامل مع الأنظمة الاخرى",
+        image: "/service/application.png",
+        number_image: "/service/04.png",
+    },
+    {
+        id: 5,
+        title: "إدارة الخدمات",
+        image: "/service/ERP-Ico.png",
+        number_image: "/service/05.png",
+    },
+    {
+        id: 6,
+        title: "التدريب الفني",
+        image: "/service/portals_Platform.png",
+        number_image: "/service/06.png",
+    },
+    {
+        id: 7,
+        title: "التدريب الوظيفي",
+        image: "/service/AI-Ico.png",
+        number_image: "/service/08.png",
+    },
+    {
+        id: 8,
+        title: "تدريب المستخدمين",
+        image: "/service/API-Ico.png",
+        number_image: "/service/09.png",
     },
 ]
