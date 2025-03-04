@@ -1,4 +1,3 @@
-import Pagination from "@/components/sector/pagination";
 import { SectorItem } from "@/components/sector/sectoritem";
 import { sectors } from "@/utils/data";
 
@@ -18,7 +17,6 @@ const Sectors = async () => {
           <SectorItem sector={item} key={item.id} />
         ))}
       </div>
-      <Pagination />
     </section>
   )
 }
