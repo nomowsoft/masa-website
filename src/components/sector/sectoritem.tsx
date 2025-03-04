@@ -8,18 +8,22 @@ interface SectorItemProps {
 
 export const SectorItem = ({sector}:SectorItemProps) => {
   return (
-    <div className="group relative md:w-1/2 lg:w-1/4  p-4 overflow-hidden">
-      <Link href={`/sectors/${sector.id}`}>
-        <Image src={sector.image} alt="" width={500} height={100} className="rounded-xl border border-success" />
-        <h1 className="text-success text-3xl mt-2 line-clamp-1 text-center h-20">{sector.title}</h1>
-        <div className="bg-white bg-opacity-90 p-4 text-success text-lg
-              opacity-0 translate-y-4 hover:opacity-100 hover:translate-y-0 duration-300 ease-in-out 
-              rounded-xl text-justify overflow-hidden absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
-          <p className="line-clamp-5">
-            {sector.body}
-          </p>
+    <div className="md:w-1/2 lg:w-1/4  p-4">
+      <div className="text-success p-4 text-right w-full transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:rounded-xl " key={sector.id}>
+        <div className="flex justify-center">
+          <div className="bg-white rounded-md flex justify-center items-center p-2 mt-2">
+            <Image src={sector.image} alt="" height={100} width={100} />
+          </div>
         </div>
-      </Link>
+        <div className="mt-4 font-extrabold text-xl text-center">
+          <h1>
+            {sector.title}
+          </h1>
+          <div className="flex justify-center">
+            <Image src="/service/line.png" alt="" height={10} width={100} className="mt-4" />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
