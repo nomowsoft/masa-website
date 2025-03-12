@@ -8,7 +8,7 @@ const Navitem = ({ name, href }: { name: string; href: string }) => {
   return (
     <li className="mx-0">
       <Link
-        className={`block py-2 px-5 lg:text-xl xl:text-2xl transition-all duration-300 transform hover:-translate-y-1 hover:text-gray-700 ${isActive ? 'text-success' : 'text-gray-500'}`}
+        className={`block py-2 px-3 lg:text-xl xl:text-2xl transition-all duration-300 transform hover:-translate-y-1 hover:text-gray-700 ${isActive ? 'text-success' : 'text-gray-500'}`}
         href={href}
       >
         {name}

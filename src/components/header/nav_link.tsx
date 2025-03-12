@@ -5,8 +5,8 @@ const menuItems = [
     { id: 1, name: "الرئيسية", href: "/", isActive: true },
     { id: 2, name: "الخدمات", href: "/services", isActive: false },
     { id: 3, name: "القطاعات", href: "/sectors", isActive: false },
-    { id: 4, name: "الشركاء", href: "#", isActive: false },
-    { id: 5, name: "قصص النجاح", href: "#", isActive: false },
+    { id: 4, name: "الشركاء", href: "/partners", isActive: false },
+    { id: 5, name: "قصص النجاح", href: "/success_story", isActive: false },
 ];
 
 const Navlink = () => {

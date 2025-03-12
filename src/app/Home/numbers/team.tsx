@@ -25,7 +25,7 @@ const manage_team = [
 
 const Team = () => {
     return (
-        <section className="py-6 xl:py-32 px-5 lg:px-20 bg-gray-200 md:bg-about2 bg-no-repeat bg-left bg-contain">
+        <section className="py-6 xl:py-32 px-5 lg:px-20 md:bg-about bg-no-repeat bg-right bg-contain bg-gray-200 ">
             <div className="max-w-screen-md mx-auto grid grid-cols-1">
                 <div>
                     <h1 className={`${module.approach_address} text-5xl lg:text-8xl lg:text-center h-16 lg:h-32`}>فريقنا</h1>
@@ -34,7 +34,7 @@ const Team = () => {
                     </p>
                 </div>
             </div>
-            <div className="max-w-screen-xl mx-auto flex flex-wrap gap-2 items-center mt-2 lg:mt-20" data-aos="fade-up">
+            <div className="max-w-screen-xl mx-auto mt-2 lg:mt-20" data-aos="fade-up">
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                     autoplay={{
@@ -81,7 +81,7 @@ const Team = () => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-                <div className="custom-swiper-navigation flex mt-3 justify-start">
+                <div className="custom-swiper-navigation flex mt-3 justify-end">
                     <div className={`custom-swiper-button-next mx-2 px-4 py-2 rounded-lg text-success`}>❮</div>
                     <div className={`custom-swiper-button-prev mx-2 px-4 py-2 rounded-lg text-success`}>❯</div>
                 </div>

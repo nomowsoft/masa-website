@@ -3,7 +3,7 @@ import module from "./number.module.css";
 
 export const Approach = () => {
     return (
-        <section className="py-10  xl:py-44 px-5 md:px-20 bg-gray-200 md:bg-about2 bg-no-repeat bg-left bg-contain">
+        <section className="py-10  xl:py-44 px-5 md:px-20 md:bg-about2 bg-no-repeat bg-left bg-contain">
             <div className="max-w-screen-xl mx-auto">
                 <h1 className={`${module.approach_address} text-5xl lg:text-8xl h-16 lg:h-32`}>منهجيتنا</h1>
                 <div className="flex flex-wrap justify-center items-center">
