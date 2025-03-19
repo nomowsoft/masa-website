@@ -11,9 +11,8 @@ import "swiper/css/scrollbar";
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
 const partners = [
-  { id: 1, src: "/partner/Microsoft_logo.svg", alt: "Microsoft Logo", name: "Microsoft", description: "شركة رائدة في مجال التكنولوجيا تقدم حلولاً مبتكرة." },
-  { id: 4, src: "/partner/Oracle-Cloud-Logo.png", alt: "Oracle Cloud Logo", name: "Oracle", description: "شركة عالمية تقدم حلول سحابية متقدمة." },
-  { id: 2, src: "/partner/odoo_gold_partner_rgb.png", alt: "Odoo Gold Partner Logo", name: "Odoo", description: "مزود حلول ERP متكاملة لتحسين العمليات التجارية." },
+  { id: 1, src: "/partner/logo-1.png", alt: "Microsoft Logo", name: "Microsoft", description: "شركة رائدة في مجال التكنولوجيا تقدم حلولاً مبتكرة." },
+  { id: 2, src: "/partner/Odoo-Logo.png", alt: "Odoo Gold Partner Logo", name: "Odoo", description: "مزود حلول ERP متكاملة لتحسين العمليات التجارية." },
   { id: 3, src: "/partner/Oracle-Cloud-Logo.png", alt: "Oracle Cloud Logo", name: "Oracle", description: "شركة عالمية تقدم حلول سحابية متقدمة." },
 ];
 
@@ -70,13 +69,10 @@ const Partners = () => {
 
               <SwiperSlide key={item.id}>
                 <div className="text-success py-32 px-4 text-right transition-transform duration-300 hover:scale-105" key={item.id}>
-                    <div className="border border-success bg-white rounded-xl shadow-xl lg:h-72">
-                      <div className="bg-white rounded-md flex justify-center items-center p-2 mt-2 h-44">
+                    <div className=" bg-white">
+                      <div className="border border-success shadow-xl bg-white rounded-3xl flex justify-center items-center p-2 mt-2 h-44">
                         <Image src={item.src} alt="" height={100} width={300} />
                       </div>
-                      <h1 className="text-center py-8 px-4 text-xl">
-                        {item.description}
-                      </h1>
                     </div>
                   </div>
               </SwiperSlide>

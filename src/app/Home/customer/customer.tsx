@@ -55,12 +55,12 @@ const Customer = () => {
 
   return (
     <section className="md:bg-about2 bg-no-repeat bg-left bg-contain px-5 lg:px-20">
-      <div className="mx-auto max-w-screen-xl xl:py-20">
+      <div className="mx-auto max-w-screen-xl py-20">
         <div className="lg:text-center">
-          <h1 className={`${module.address_customer} text-5xl max-w-screen-lg mx-auto h-16 lg:h-20`}>
+          <h1 className={`${module.address_customer} text-5xl text-center h-16 lg:h-20`}>
             عملاؤنا
           </h1>
-          <h1 className="pb-8 text-lg text-justify lg:text-center lg:text-xl max-w-screen-lg mx-auto text-gray-600">
+          <h1 className="pb-8 text-lg md:text-justify text-center lg:text-xl max-w-screen-lg mx-auto text-gray-600">
             نحن نعتز بعلاقاتنا طويلة الأمد مع عملائنا الذين يثقون بنا في تقديم أفضل الحلول التقنية. نجاحنا ينبع من رضا عملائنا وسعينا المستمر لتقديم خدمات تفوق توقعاتهم.
           </h1>
         </div>
@@ -111,7 +111,7 @@ const Customer = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className="custom-swiper-navigation1 flex mt-3 justify-start">
+          <div className="custom-swiper-navigation1 flex mt-3 md:justify-start justify-center">
             <div className={`customer-swiper-button-next mx-2 px-4 py-2 rounded-lg text-success cursor-pointer`}>❮</div>
             <div className={`customer-swiper-button-prev mx-2 px-4 py-2 rounded-lg text-success cursor-pointer`}>❯</div>
           </div>
