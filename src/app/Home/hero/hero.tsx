@@ -9,7 +9,7 @@ const Hero = () => {
       <section className={`${module.bg_shape_5} hidden lg:block`} />
       <section className={`${module.bg_shape_6} hidden lg:block`} />
       <section>
-        <div className="grid px-4 py-20 md:py-32 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 max-w-screen-xl h-auto md:h-screen">
+        <div className="grid px-4 py-20 md:py-32 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:max-w-screen-xl h-auto md:h-screen">
           <div className="place-self-center lg:col-span-6">
             <h1
               data-aos="fade-down"
@@ -19,7 +19,7 @@ const Hero = () => {
             </h1>
             <p
               data-aos="fade-down"
-              className="max-w-2xl mb-6 text-gray-600 lg:mb-8 text-sm md:text-base lg:text-lg text-justify ml-0 md:ml-5"
+              className="max-w-2xl mb-6 text-gray-600 lg:mb-8 text-sm md:text-base lg:text-2xl text-justify ml-0 md:ml-5"
             >
               نحن نؤمن بأهمية الابتكار والتحول الرقمي لتحقيق النجاح المستدام. كـ{" "}
               <span className="text-purple-900 font-bold">شريك ذهبي لـ Odoo</span>، نقدم حلولاً رقمية متكاملة وقابلة للتخصيص باستخدام منصة{" "}
