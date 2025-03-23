@@ -15,26 +15,26 @@ export default function Footer() {
                         <Image height={20} width={150} src="/navbar/logo_masa.svg" alt="Flowbite Logo" />
                     </Link>
                     <p className="text-success mt-3 text-lg text-justify py-3">
-                    في ماسا ، نقدم حلولًا رقمية متكاملة تساعد الشركات على تحقيق أقصى استفادة من التكنولوجيا لتعزيز كفاءتها التشغيلية وتطوير أعمالها. نحن نؤمن بأن الابتكار هو المفتاح لتحقيق النجاح في العصر الرقمي، ونعمل على توفير حلول تقنية متقدمة تلبي احتياجات مختلف القطاعات.                    </p>
+                     نقدم حلولًا رقمية متكاملة تساعد الشركات على تحقيق أقصى استفادة من التكنولوجيا لتعزيز كفاءتها التشغيلية وتطوير أعمالها. نحن نؤمن بأن الابتكار هو المفتاح لتحقيق النجاح في العصر الرقمي، ونعمل على توفير حلول تقنية متقدمة تلبي احتياجات مختلف القطاعات.                    </p>
                 </div>
                 <div className="flex flex-col justify-center md:justify-end md:items-end mt-16 md:mt-0">
-                    <div className="flex gap-8 justify-center pb-10">
+                    <div className="flex gap-12 justify-center pb-10">
                         <div>
                             <Link href="/" className="text-success text-sm lg:text-xl">الرئسية</Link>
                         </div>
                         <div>
-                            <Link href="/" className="text-success text-sm lg:text-xl">الباقات</Link>
+                            <Link href="/services" className="text-success text-sm lg:text-xl">الخدمات</Link>
                         </div>
                         <div>
-                            <Link href="/" className="text-success text-sm lg:text-xl">الدعم الفني</Link>
+                            <Link href="/sectors" className="text-success text-sm lg:text-xl">القطاعات</Link>
                         </div>
                         <div>
-                            <Link href="/" className="text-success text-sm lg:text-xl">تواصل معنا</Link>
+                            <Link href="/partners" className="text-success text-sm lg:text-xl">الشركاء</Link>
                         </div>
                     </div>
                     <div className="mb-6 md:mb-0 text-xl text-success mt-5 md:mt-0 grid grid-cols-1 md:grid-cols-2 text-center md:text-right">
                         <div className="md:flex md:flex-wrap md:justify-end items-center">
-                            <div className="md:hidden mx-2 flex justify-center">
+                            <div className="md:hidden  flex justify-center">
                                 <span><FaLocationDot /></span>
                             </div>
                             <div className="lg:text-lg md:text-left">
@@ -42,7 +42,7 @@ export default function Footer() {
                                 <p>12612 Riyadh</p>
                                 <p>المملكة العربية السعودية</p>
                             </div>
-                            <div className="mx-2 hidden md:flex justify-center">
+                            <div className="mr-2 hidden md:flex justify-center">
                                 <span><FaLocationDot /></span>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ export default function Footer() {
                                 <div>
                                     <p className="lg:text-lg">2802 780 53 966+</p>
                                 </div>
-                                <div className="mx-2 flex justify-center">
+                                <div className="mr-2 flex justify-center">
                                     <FaPhone />
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ export default function Footer() {
                                         <p className="text-lg">http://masa.sa</p>
                                     </Link>
                                 </div>
-                                <div className="mx-2 flex justify-center">
+                                <div className="mr-2 flex justify-center">
                                     <FaEarthAmericas />
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ export default function Footer() {
                                 <div>
                                     <p className="lg:text-lg">info@masa.sa</p>
                                 </div>
-                                <div className="mx-2 flex justify-center">
+                                <div className="mr-2 flex justify-center">
                                     <MdEmail />
                                 </div>
                             </div>

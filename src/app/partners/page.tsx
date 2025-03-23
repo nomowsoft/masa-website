@@ -26,11 +26,11 @@ const Partners = () => {
   return (
     <section>
       <div className="pt-44 pb-12 bg-gray-200 ">
-        <div className="max-w-screen-md md:mx-auto mx-10 text-success pb-8 text-center">
+        <div className="max-w-screen-lg md:mx-auto mx-10 text-success pb-8 text-center">
           <div data-aos="fade-down">
             <h1 className="text-success text-3xl lg:text-6xl mt-4 text-center h-20">شركاء النجاح</h1>
-            <p className="mt-8 text-xl text-justify text-gray-600">
-              في ماسا، نفتخر بشراكتنا مع رواد التقنية العالميين الذين يساهمون في تقديم أحدث الحلول التقنية لعملائنا. سواء كنت تبحث عن تطوير أنظمة متقدمة، تحسين عملياتك اليومية، أو حتى الحصول على دعم فني متميز، فإن شركاءنا يضمنون لك أعلى معايير الجودة والاحترافية. نحن هنا لنساعدك على تحقيق أهدافك بنجاح.
+            <p className="mt-8 text-xl md:text-2xl text-justify md:text-center text-gray-600">
+              نفتخر بشراكتنا مع رواد التقنية العالميين الذين يساهمون في تقديم أحدث الحلول التقنية لعملائنا. سواء كنت تبحث عن تطوير أنظمة متقدمة، تحسين عملياتك اليومية، أو حتى الحصول على دعم فني متميز، فإن شركاءنا يضمنون لك أعلى معايير الجودة والاحترافية. نحن هنا لنساعدك على تحقيق أهدافك بنجاح.
             </p>
           </div>
         </div>

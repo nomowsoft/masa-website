@@ -7,11 +7,11 @@ interface FormInputProps {
 }
 const FormInput = ({ label, type, id, placeholder, required = false, ...props }: FormInputProps) => (
   <div className="w-full">
-    <label htmlFor={id} className="block mb-2 text-sm font-medium text-success">{label}</label>
+    <label htmlFor={id} className="block mb-2 text-lg font-medium text-success">{label}</label>
     <input
       type={type}
       id={id}
-      className="bg-primary border border-success text-success text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
+      className=" border border-success text-success text-lg rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5"
       placeholder={placeholder}
       required={required}  // Ensure `required` is a boolean here
       {...props}
@@ -33,11 +33,11 @@ interface FormSelectProps {
 
 const FormSelect = ({ label, id, options, defaultValue }: FormSelectProps) => (
   <div>
-    <label htmlFor={id} className="block mb-2 text-sm font-medium text-success">{label}</label>
+    <label htmlFor={id} className="block mb-2 text-lg font-medium text-success">{label}</label>
     <select
       id={id}
       defaultValue={defaultValue}
-      className="bg-primary border border-success text-success text-sm rounded-lg focus:ring-success focus:border-success block w-full p-1.5"
+      className="border border-success text-success text-lg rounded-lg focus:ring-success focus:border-success block w-full p-1.5"
     >
       {options.map((option, index) => (
         <option key={index} value={option.value}>{option.label}</option>
@@ -56,11 +56,11 @@ interface FormTextareaProps {
 
 const FormTextarea = ({ label, id, placeholder, rows, required = false }: FormTextareaProps) => (
   <div className="w-full">
-    <label htmlFor={id} className="block mb-2 text-sm font-medium text-success">{label}</label>
+    <label htmlFor={id} className="block mb-2 text-lg font-medium text-success">{label}</label>
     <textarea
       id={id}
       rows={rows}
-      className="block p-2.5 w-full text-sm bg-primary rounded-lg border border-success focus:ring-primary-500 focus:border focus:border-success"
+      className="block p-2.5 w-full text-lg  rounded-lg border border-success focus:ring-primary-500 focus:border focus:border-success"
       placeholder={placeholder}
       required={required}
     ></textarea>
@@ -77,15 +77,16 @@ const Contactus = () => {
   ];
 
   return (
-    <section className="bg-primary bg-customer bg-cover bg-bottom md:py-6 xl:py-16">
+    <section className="bg-about3 bg-cover bg-bottom md:py-6 xl:py-44">
       <div className="px-4 mx-auto max-w-2xl pb-20 lg:pb-32">
-        <h2 className="mb-4 text-xl font-bold text-success pt-10 md:pt-0">تواصل معنا</h2>
+        <h2 className="mb-8 text-4xl font-bold text-success pt-10 md:pt-0">تواصل معنا</h2>
         <form action="#">
           <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
             <FormInput label="الأسم" type="text" id="name" placeholder="أدخل الاسم" required />
             <FormInput label="رقم الجوال" type="text" id="brand" placeholder="أدخل رقم الجوال" required />
             <FormInput label="البريد الإلكتروني" type="text" id="price" placeholder="أدخل البريد الإلكتروني" required />
             <FormInput label="اسم الشركة" type="number" id="item-weight" placeholder="اسم الشركة" required />
+            <FormInput label="الوظيفة" type="number" id="item-weight" placeholder="الوظيفة" required />
             <FormSelect label="سبب التواصل" id="category" options={categories} defaultValue="" />
             <div className="sm:col-span-2">
               <FormTextarea
@@ -97,7 +98,7 @@ const Contactus = () => {
               />
             </div>
           </div>
-          <button type="submit" className="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-primary border border-primary bg-success rounded-lg focus:ring-4 focus:ring-primary">
+          <button type="submit" className="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-primary border border-primary bg-success rounded-lg focus:ring-4 focus:ring-primary float-end">
             ارسال
           </button>
         </form>

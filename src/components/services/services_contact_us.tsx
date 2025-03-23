@@ -30,10 +30,10 @@ const ServicesContactUs = () => {
     <section>
       <div className="bg-gray-100 pt-44 pb-12 bg-about3 bg-contain bg-no-repeat">
         <div data-aos="fade-down" className="max-w-screen-lg mx-auto text-center">
-          <h1 className="text-4xl text-success">خدماتنا التقنية</h1>
+          <h1 className="text-5xl text-success mb-8">الخدمات</h1>
           <h1 className="text-4xl mt-2 text-success">حلول مبتكرة لمستقبل أفضل</h1>
           <p className="mt-8 text-xl md:text-2xl text-justify lg:text-center text-gray-600 mx-10">
-            في ماسا، نقدم لك أحدث الحلول التقنية اللي ترفع مستوى أعمالك وتسهّل عليك كل شيء! سواء كنت تحتاج تطوير أنظمة، تحسين عمليات، أو حتى دعم فني، إحنا هنا نخدمك بأعلى معايير الجودة والاحترافية.
+             نقدم لك أحدث الحلول التقنية اللي ترفع مستوى أعمالك وتسهّل عليك كل شيء! سواء كنت تحتاج تطوير أنظمة، تحسين عمليات، أو حتى دعم فني، إحنا هنا نخدمك بأعلى معايير الجودة والاحترافية.
           </p>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-8 mt-12 mx-10">
@@ -98,7 +98,10 @@ const ServicesContactUs = () => {
                   className="mx-auto"
                 />
                 <h2 className="text-3xl font-bold text-success mt-4">
-                  <span>{selectedService.title}</span> - <span>{selectedService.description}</span>
+                  <span>{selectedService.title}</span>
+                </h2>
+                <h2 className="text-2xl font-bold text-success mt-4">
+                  <span>{selectedService.description}</span>
                 </h2>
                 <p className="mt-4 text-gray-600 text-xl">
                   {selectedService.body || "تفاصيل الخدمة غير متوفرة."}
