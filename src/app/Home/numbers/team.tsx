@@ -10,14 +10,14 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/module
 
 const manage_team = [
   { id: 1, name: "ايهاب الشوربجي", function: "Functional Consultant", image: "/partner/1.png" },
-  { id: 2, name: "الطيب كريستو", function: "Senior Functional Consultant", image: "/partner/6.png" },
+  { id: 2, name: "الطيب كريستو", function: "Technical Manager", image: "/partner/6.png" },
   { id: 3, name: "امل الحسن", function: "Senior Functional Consultant", image: "/partner/10.png" },
   { id: 4, name: "طارق ابو السعود", function: "Senior Functional Consultant", image: "/partner/2.png" },
   { id: 5, name: "حسنين علي", function: "Senior Functional Consultant", image: "/partner/5.png" },
-  { id: 6, name: "يوسف مصطفى", function: "Customer Account Manager", image: "/partner/4.png" },
-  { id: 7, name: "جيهان بن علي", function: "Senior Systems Developer", image: "/partner/10.png" },
-  { id: 8, name: "كريم رواق", function: "Senior Systems Developer", image: "/partner/7.png" },
-  { id: 9, name: "مروه علي", function: "Senior Systems Developer", image: "/partner/10.png" },
+  { id: 6, name: "يوسف مصطفى", function: "Sales Account Manager", image: "/partner/4.png" },
+  { id: 7, name: "جيهان بن علي", function: "Team Leader", image: "/partner/10.png" },
+  { id: 8, name: "كريم رواق", function: "Team Leader", image: "/partner/7.png" },
+  { id: 9, name: "مروه علي", function: "Team Leader", image: "/partner/10.png" },
   { id: 10, name: "هاني حسن", function: "Project Manager", image: "/partner/3.png" },
   { id: 11, name: "فاطمة عبدالكريم", function: "Business Solutions Consultant", image: "/partner/10.png" },
   { id: 12, name: "متعب الزهراني", function: "Project Coordinator", image: "/partner/8.png" },
@@ -29,10 +29,10 @@ const Team = () => {
       <div className="max-w-screen-md mx-auto grid grid-cols-1">
         <div>
           <h1 className={`${module.approach_address} text-4xl md:text-5xl lg:text-5xl text-center h-24 md:h-20`}>
-            فريقنا – خبرات متخصصة لتحقيق النجاح
+          خبرات متخصصة لتحقيق النجاح
           </h1>
-          <p className="text-gray-600 mt-3 text-justify lg:text-center text-lg lg:text-xl">
-            يضم فريق <span className="text-success font-bold">ماسا للتقنية</span> مجموعة من الخبراء المتخصصين في تنفيذ حلول Odoo المبتكرة. فريقنا يقدم لك استشارات وحلولاً مخصصة تساهم في تحسين أدائك التجاري، مما يتيح لك تحقيق أقصى استفادة من الأنظمة الرقمية. نحن نركز على تقديم قيمة حقيقية، وتعزيز الكفاءة التشغيلية، ودعم استراتيجيات النمو المستدام لشركتك.
+          <p className="text-gray-600 mt-3 text-justify lg:text-center text-lg lg:text-2xl">
+            يضم فريقنا مجموعة من الخبراء المتخصصين في تنفيذ حلول Odoo المبتكرة. فريقنا يقدم لك استشارات وحلولاً مخصصة تساهم في تحسين أدائك التجاري، مما يتيح لك تحقيق أقصى استفادة من الأنظمة الرقمية. نحن نركز على تقديم قيمة حقيقية، وتعزيز الكفاءة التشغيلية، ودعم استراتيجيات النمو المستدام لشركتك.
           </p>
         </div>
       </div>

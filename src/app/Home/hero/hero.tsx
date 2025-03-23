@@ -15,14 +15,15 @@ const Hero = () => {
               data-aos="fade-down"
               className={`${module.text_address} h-20 lg:h-16 max-w-2xl mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-success`}
             >
-              ماسا - تحول رقمي مبتكر لأعمالك
+              تحول رقمي مبتكر لأعمالك
+
             </h1>
             <p
               data-aos="fade-down"
               className="max-w-2xl mb-6 text-gray-600 lg:mb-8 text-base md:text-lg lg:text-2xl text-justify ml-5"
             >
-              في <span className="text-success font-bold">ماسا</span>، نحن نؤمن بأهمية الابتكار والتحول الرقمي لتحقيق النجاح المستدام. كـ{" "}
-              <span className="text-purple-900 font-bold">Odoo Gold Partner</span>، نقدم حلولاً رقمية متكاملة وقابلة للتخصيص باستخدام منصة{" "}
+              نحن نؤمن بأهمية الابتكار والتحول الرقمي لتحقيق النجاح المستدام. كـ{" "}
+              <span className="text-purple-900 font-bold">شريك ذهبي لـ Odoo</span>، نقدم حلولاً رقمية متكاملة وقابلة للتخصيص باستخدام منصة{" "}
               <span className="text-purple-900 font-bold">Odoo</span> الرائدة. نساعد الشركات في تبسيط العمليات، وتحسين الكفاءة التشغيلية، وتعزيز تجارب العملاء، مما يساهم في تعزيز نمو الأعمال وزيادة الإنتاجية.
             </p>
             <div className="flex flex-col md:flex-row items-center mt-10">

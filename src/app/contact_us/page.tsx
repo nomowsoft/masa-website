@@ -13,7 +13,7 @@ export default function Contact() {
       });
     }, []);
   return (
-    <div className="bg-primary">
+    <div>
         <Contactus />
     </div>
   );

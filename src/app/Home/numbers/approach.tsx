@@ -8,10 +8,10 @@ export const Approach = () => {
                 <div className="flex flex-wrap justify-center items-center">
                     <div className="w-full md:w-1/2 px-4">
                         <h1 className={`${module.approach_address} text-4xl md:text-5xl lg:text-6xl h-16 lg:h-20`}>
-                            منهجيتنا – مرونة الابتكار
+                            مرونة الابتكار
                         </h1>
-                        <p className="text-gray-600 mt-3 text-justify text-base md:text-lg lg:text-xl md:ml-10">
-                            نحن في <span className="text-success font-bold">ماسا</span> نستخدم منهجية مرنة تتيح لنا تقديم حلول مخصصة بسرعة وفعالية تعرف بـ Agile Methodology. 
+                        <p className="text-gray-600 mt-3 text-justify text-base md:text-lg lg:text-2xl md:ml-10">
+                             نستخدم منهجية مرنة تتيح لنا تقديم حلول مخصصة بسرعة وفعالية تعرف بـ Agile Methodology. 
                             هذه المنهجية تعتمد على التفاعل المستمر مع العميل، مما يسمح بتطوير الحلول بشكل تدريجي وتعديلها بما يتناسب مع التحديات المتغيرة. 
                             مع كل خطوة نأخذها، نضمن أن النظام يعمل بأعلى كفاءة، مما يساعدك على تحقيق أهدافك التجارية في أقصر وقت ممكن وبأقل التكاليف.
                         </p>
