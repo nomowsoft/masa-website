@@ -28,7 +28,7 @@ const Team = () => {
     <section className="py-6 xl:py-32 px-5 lg:px-20 md:bg-about bg-no-repeat bg-right bg-contain bg-gray-200">
       <div className="max-w-screen-md mx-auto grid grid-cols-1">
         <div>
-          <h1 className={`${module.approach_address} text-4xl md:text-5xl lg:text-5xl text-center h-24 md:h-20`}>
+          <h1 className="text-4xl md:text-5xl lg:text-5xl text-center mb-12 text-success">
           خبرات لتحقيق النجاح
           </h1>
           <p className="text-gray-600 mt-3 text-justify lg:text-center text-lg lg:text-2xl">
