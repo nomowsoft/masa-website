@@ -12,7 +12,6 @@ export const Approach = () => {
                         <p className="text-gray-600 mt-3 text-justify text-base md:text-lg lg:text-2xl md:ml-10">
                              نستخدم منهجية مرنة تتيح لنا تقديم حلول مخصصة بسرعة وفعالية تعرف بـ Agile Methodology. 
                             هذه المنهجية تعتمد على التفاعل المستمر مع العميل، مما يسمح بتطوير الحلول بشكل تدريجي وتعديلها بما يتناسب مع التحديات المتغيرة. 
-                            مع كل خطوة نأخذها، نضمن أن النظام يعمل بأعلى كفاءة، مما يساعدك على تحقيق أهدافك التجارية في أقصر وقت ممكن وبأقل التكاليف.
                         </p>
                     </div>
                     <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0 md:justify-end items-center">
