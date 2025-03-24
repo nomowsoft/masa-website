@@ -1,5 +1,4 @@
 import Image from "next/image";
-import module from "./number.module.css";
 
 export const Approach = () => {
     return (
