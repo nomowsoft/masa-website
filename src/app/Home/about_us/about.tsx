@@ -1,4 +1,3 @@
-import module from "./about.module.css";
 import { FaUsers, FaProjectDiagram, FaAward } from "react-icons/fa";
 
 const About = () => {
