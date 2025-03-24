@@ -8,7 +8,7 @@ export const Approach = () => {
                 <div className="flex flex-wrap justify-center items-center">
                     <div className="w-full md:w-1/2 px-4">
                         <h1 className={`${module.approach_address} text-4xl md:text-5xl lg:text-6xl h-16 lg:h-20`}>
-                            مرونة الابتكار
+                            منهجية الأعمال
                         </h1>
                         <p className="text-gray-600 mt-3 text-justify text-base md:text-lg lg:text-2xl md:ml-10">
                              نستخدم منهجية مرنة تتيح لنا تقديم حلول مخصصة بسرعة وفعالية تعرف بـ Agile Methodology. 

@@ -29,7 +29,7 @@ const Team = () => {
       <div className="max-w-screen-md mx-auto grid grid-cols-1">
         <div>
           <h1 className={`${module.approach_address} text-4xl md:text-5xl lg:text-5xl text-center h-24 md:h-20`}>
-          خبرات متخصصة لتحقيق النجاح
+          خبرات لتحقيق النجاح
           </h1>
           <p className="text-gray-600 mt-3 text-justify lg:text-center text-lg lg:text-2xl">
             يضم فريقنا مجموعة من الخبراء المتخصصين في تنفيذ حلول Odoo المبتكرة. فريقنا يقدم لك استشارات وحلولاً مخصصة تساهم في تحسين أدائك التجاري، مما يتيح لك تحقيق أقصى استفادة من الأنظمة الرقمية. نحن نركز على تقديم قيمة حقيقية، وتعزيز الكفاءة التشغيلية، ودعم استراتيجيات النمو المستدام لشركتك.
