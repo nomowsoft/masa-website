@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="place-self-center lg:col-span-6">
             <h1
               data-aos="fade-down"
-              className={`${module.text_address} h-20 max-w-2xl mb-4 text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight text-success`}
+              className="max-w-2xl mb-10 text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight text-success"
             >
               تحول رقمي مبتكر لأعمالك
             </h1>

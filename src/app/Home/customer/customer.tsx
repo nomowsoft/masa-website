@@ -57,7 +57,7 @@ const Customer = () => {
     <section className="md:bg-about2 bg-no-repeat bg-left bg-contain px-5 lg:px-20">
       <div className="mx-auto max-w-screen-xl py-20">
         <div className="lg:text-center">
-          <h1 className={`${module.address_customer} text-4xl md:text-5xl lg:text-5xl text-center h-16 lg:h-20`}>
+          <h1 className="text-4xl md:text-5xl lg:text-5xl text-center text-success mb-12">
             عملاؤنا
           </h1>
           <h1 className="pb-8 text-lg md:text-center lg:text-2xl max-w-screen-lg mx-auto text-gray-600">
