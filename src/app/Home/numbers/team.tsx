@@ -25,13 +25,13 @@ const manage_team = [
 const Team = () => {
   return (
     <section className="py-6 xl:py-32 px-5 lg:px-20 md:bg-about bg-no-repeat bg-right bg-contain bg-gray-200">
-      <div className="max-w-screen-md mx-auto grid grid-cols-1">
+      <div className="max-w-screen-lg mx-auto grid grid-cols-1">
         <div>
           <h1 className="text-4xl md:text-5xl lg:text-5xl text-center mb-12 text-success">
           خبرات لتحقيق النجاح
           </h1>
           <p className="text-gray-600 mt-3 text-justify lg:text-center text-lg lg:text-2xl">
-            يضم فريقنا مجموعة من الخبراء المتخصصين في تنفيذ حلول Odoo المبتكرة. فريقنا يقدم لك استشارات وحلولاً مخصصة تساهم في تحسين أدائك التجاري، مما يتيح لك تحقيق أقصى استفادة من الأنظمة الرقمية. نحن نركز على تقديم قيمة حقيقية، وتعزيز الكفاءة التشغيلية، ودعم استراتيجيات النمو المستدام لشركتك.
+            يضم فريقنا مجموعة من الخبراء المتخصصين في تنفيذ حلول <span className="text-success">Odoo</span> المبتكرة. فريقنا يقدم لك استشارات وحلولاً مخصصة تساهم في تحسين أدائك التجاري، مما يتيح لك تحقيق أقصى استفادة من الأنظمة الرقمية. نحن نركز على تقديم قيمة حقيقية، وتعزيز الكفاءة التشغيلية، ودعم استراتيجيات النمو المستدام لشركتك.
           </p>
         </div>
       </div>
