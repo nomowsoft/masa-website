@@ -28,7 +28,7 @@ const ServicesContactUs = () => {
 
   return (
     <section>
-      <div className="bg-gray-100 pt-44 pb-12 bg-about3 bg-contain bg-no-repeat">
+      <div className="bg-gray-100 pt-44 pb-12 bg-about3 md:bg-cover bg-no-repeat">
         <div data-aos="fade-down" className="max-w-screen-lg mx-auto text-center">
           <h1 className="text-5xl text-success mb-8">الخدمات</h1>
           <h1 className="text-4xl mt-2 text-success">حلول مبتكرة لمستقبل أفضل</h1>

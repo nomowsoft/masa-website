@@ -9,7 +9,7 @@ const Hero = () => {
       <section className={`${module.bg_shape_5} hidden lg:block`} />
       <section className={`${module.bg_shape_6} hidden lg:block`} />
       <section>
-        <div className="grid px-4 py-20 md:py-32 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:max-w-screen-xl h-auto md:h-screen">
+        <div className="grid px-4 py-20 md:py-32 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:max-w-screen-xl h-auto mt-20 md:mt-10 lg:mt-0 md:h-screen">
           <div className="place-self-center lg:col-span-6">
             <h1
               data-aos="fade-down"

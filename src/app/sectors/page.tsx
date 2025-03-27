@@ -3,7 +3,7 @@ import { sectors } from "@/utils/data";
 
 const Sectors = async () => {
   return (
-    <section className="max-w-screen-3xl mx-auto bg-about3 bg-cover bg-no-repeat">
+    <section className="max-w-screen-3xl mx-auto md:bg-about3 bg-cover bg-no-repeat">
       <div className="bg-gray-200 pt-32 md:pt-44 pb-10 md:pb-20 px-4">
         <h1 className="text-success text-4xl md:text-5xl lg:text-6xl mt-4 text-center lg:max-w-screen-xl mx-auto leading-relaxed">
           القطاعات

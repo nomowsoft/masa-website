@@ -1,7 +1,7 @@
 const ContactUsService = () => {
   return (
     <section>
-        <div className="pt-12 pb-12 md:bg-about bg-no-repeat bg-right bg-contain">
+        <div className="pt-12 pb-12 md:bg-about bg-no-repeat bg-right bg-cover">
             <div className="max-w-screen-2xl md:mx-auto mx-10 text-success pb-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg text-right mt-10 md:mt0 max-w-screen-lg mx-auto" data-aos="fade-up">
                 <h2 className="text-2xl font-bold text-success mb-2">

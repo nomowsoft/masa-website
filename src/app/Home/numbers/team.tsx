@@ -24,7 +24,7 @@ const manage_team = [
 
 const Team = () => {
   return (
-    <section className="py-6 xl:py-32 px-5 lg:px-20 md:bg-about bg-no-repeat bg-right bg-contain bg-gray-200">
+    <section className="py-6 xl:py-32 px-5 lg:px-20 md:bg-about bg-no-repeat bg-right bg-cover bg-gray-200">
       <div className="max-w-screen-lg mx-auto grid grid-cols-1">
         <div>
           <h1 className="text-4xl md:text-5xl lg:text-5xl text-center mb-12 text-success">

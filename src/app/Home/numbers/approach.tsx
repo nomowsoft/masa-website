@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Approach = () => {
     return (
-        <section className="py-10 xl:py-44 px-5 md:px-20 md:bg-about2 bg-no-repeat bg-left bg-contain">
+        <section className="py-10 xl:py-44 px-5 md:px-20 md:bg-about2 bg-no-repeat bg-left bg-cover">
             <div className="max-w-screen-xl mx-auto">
                 <div className="flex flex-wrap justify-center items-center">
                     <div className="w-full md:w-1/2 px-4">

@@ -35,7 +35,7 @@ const Partners = () => {
           </div>
         </div>
       </div>
-      <div className="lg:bg-about3 bg-cover bg-no-repeat">
+      <div className="md:bg-about3 bg-cover bg-no-repeat">
         <div className="py-12 max-w-screen-xl mx-auto">
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
