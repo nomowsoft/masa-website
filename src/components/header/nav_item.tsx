@@ -2,7 +2,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation";
 
-const Navitem = ({ name, href }: { name: string; href: string }) => {
+const Navitem = ({ name, href, closeMenu }: { name: string; href: string, closeMenu?: () => void; }) => {
   const pathname = usePathname();
   const isActive = (pathname === href)
   return (
@@ -10,6 +10,7 @@ const Navitem = ({ name, href }: { name: string; href: string }) => {
       <Link
         className={`block py-2 lg:px-6 xl:px-12 lg:text-xl xl:text-2xl transition-all duration-300 transform hover:-translate-y-1 hover:text-gray-700 ${isActive ? 'text-success' : 'text-gray-500'}`}
         href={href}
+        onClick={closeMenu}
       >
         {name}
       </Link>

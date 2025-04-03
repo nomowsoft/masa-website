@@ -9,7 +9,7 @@ const menuItems = [
     // { id: 5, name: "قصص النجاح", href: "/success_story", isActive: false },
 ];
 
-const Navlink = () => {
+const Navlink = ({ closeMenu }: { closeMenu?: () => void }) => {
     return (
         <ul className="flex flex-col mt-4 text-lg lg:flex-row lg:mt-0">
             {menuItems.map((item) => (
@@ -17,6 +17,7 @@ const Navlink = () => {
                     name={item.name}
                     key={item.id}
                     href={item.href}
+                    closeMenu={closeMenu}
                 />
             ))}
         </ul>
