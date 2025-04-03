@@ -13,6 +13,10 @@ export default function Header() {
     setMobileMenuOpen((prev) => !prev);
   };
 
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -51,7 +55,7 @@ export default function Header() {
               } absolute top-full left-0 w-full bg-white shadow-lg lg:relative lg:block lg:w-auto lg:shadow-none lg:bg-transparent`}
               id="mobile-menu"
             >
-              <Navlink />
+              <Navlink closeMenu={closeMobileMenu} />
             </div>
           </div>
          </div>
