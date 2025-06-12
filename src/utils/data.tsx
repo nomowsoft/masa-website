@@ -3,7 +3,7 @@ import { Sector, Service } from "./types";
 export const sectors: Sector[] = [
     {
         id: 1,
-        image: "/sectors/apartment.png",
+        image: "/sectors/chart-histogram.png",
         title: "قطاع الخدمات (SERVICES)",
         quation: "كيف ندعم قطاع الخدمات؟",
         body: `ندرك التحديات التي تواجه شركات الخدمات، مثل إدارة المشاريع، وتتبع الجداول الزمنية، والفوترة الدقيقة. نُقدم حلول تُمكّن الشركات من تقديم خدماتها بكفاءة عالية.
@@ -14,7 +14,7 @@ export const sectors: Sector[] = [
     },
     {
         id: 2,
-        image: "/sectors/chart-histogram.png",
+        image: "/sectors/industry-alt.png",
         title: "القطاع الصناعي (INDUSTRIAL)",
         quation: "كيف نخدم قطاع التصنيع؟",
         body: `نساعد الشركات الصناعية على أتمتة عمليات الإنتاج، وتحسين إدارة سلسلة التوريد، وتقليل الهدر باستخدام نظام Odoo Manufacturing.
@@ -25,7 +25,7 @@ export const sectors: Sector[] = [
     },
     {
         id: 3,
-        image: "/sectors/industry-alt.png",
+        image: "/sectors/student-alt.png",
         title: "قطاع التعليم (EDUCATION)",
         quation: "كيف ندعم المؤسسات التعليمية؟",
         body: `نُقدم حلولًا متكاملة لإدارة المدارس والجامعات والمؤسسات التدريبية، مما يساعد على تحسين الأداء الإداري والأكاديمي.
@@ -58,7 +58,7 @@ export const sectors: Sector[] = [
     },
     {
         id: 6,
-        image: "/sectors/student-alt.png",
+        image: "/sectors/apartment.png",
         title: "قطاع العقارات (REAL ESTATE)",
         quation: "كيف ندعم قطاع العقارات؟",
         body: `نوفر حلول Odoo لإدارة العقارات، مما يساعد الشركات العقارية في تحسين إدارة الممتلكات، وعقود الإيجار، والمبيعات.
