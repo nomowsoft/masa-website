@@ -38,6 +38,7 @@ export default {
         info: "#DFCEE2",
         secondary: "#17539B",
         warning: "#25D5FC",
+        footer: "#A376AF",
         customBlue: {
           50: '#7D007E'
         }
@@ -47,7 +48,7 @@ export default {
       hero: "url('/banar/11.svg')",
       partner: "url('/partner/02.svg')",
       service: "url('/partner/02.svg')",
-      customer: "url('/banar/14.svg')",
+      customer: "url('/footer/14.svg')",
     },
   },
   plugins: [],

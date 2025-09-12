@@ -39,8 +39,15 @@ const Services = () => {
       className="md:bg-service md:bg-no-repeat md:bg-bottom"
     >
       <div className="pt-10">
-        <div className="text-center text-success pb-24">
+        <div className="text-center text-success pb-4">
           <h1 className="text-2xl md:text-4xl" data-aos="zoom-in">خدماتنا</h1>
+        </div>
+        <div className="text-center text-success mx-auto max-w-screen-xl">
+          <div className="mx-50 md:mx-20">
+            <h1 className="text-2xl pb-4" data-aos="zoom-in">
+            عام 2015 م انطلقنا في رحلة التحول الرقمي لعملائنا اعتمادا على   منصة Odoo , نهتم بكل التفاصيل التي تساعد العملاء في تحقيق اهدافهم في الحصول على انظمة مؤائمة لمختلف النشاطات ةضمان استمرارية الاعمال من خلال التميز في خدمة مابعد البيع
+            </h1>
+          </div>
         </div>
         <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 mx-20" data-aos="fade-up">
           {l?.map((l) => (

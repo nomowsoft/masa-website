@@ -28,7 +28,7 @@ const l = [
 
 const Customer = () => {
   return (
-    <section className="md:bg-customer md:bg-cover md:bg-bottom ">
+    <section className="bg-customer bg-cover bg-bottom ">
       <div className="py-10 mx-4 lg:mx-20 ">
         <div className="text-center text-success">
           <h1 className="text-2xl md:text-4xl" data-aos="zoom-in">عملاء نفتخر بهم</h1>
