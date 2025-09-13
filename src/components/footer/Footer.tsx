@@ -14,9 +14,12 @@ export default function Footer() {
                     <Link href="/" className="flex items-center justify-center md:justify-start mb-4 sm:mb-0">
                         <Image height={20} width={150} src="/footer/logo masa.svg" className="h-16" alt="Flowbite Logo" />
                     </Link>
-                    <ul className="flex flex-wrap items-center justify-center mt-6 text-xl text-success">
+                    <ul className="text-center md:text-right my-6 text-xl text-success">
                         <li>
                             <Link href="/" className="hover:underline me-4 md:me-6">الرئسية</Link>
+                        </li>
+                        <li className="mt-2">
+                            <Link href="https://www.odoo.com/partners/masa-lshrk-l-rby-lmtkhss-llstshrt-wtqny-lm-lwmt-988848?country_id=185" className="hover:underline me-4 md:me-6">رابط ماسا على أودو</Link>
                         </li>
                     </ul>
                 </div>
@@ -37,8 +40,8 @@ export default function Footer() {
                     </div>
                     <SocialMedia />
                 </div>
-                <div className="mb-6 text-xl text-success">
-                    <div className="flex flex-wrap justify-start">
+                <div className="mb-6 text-xl text-success mr-10 mt-5 md:mr-0 md:mt-0">
+                    <div className="flex flex-wrap lg:justify-start">
                         <div className="mx-2">
                             <span><FaLocationDot /></span>
                         </div>
@@ -48,7 +51,7 @@ export default function Footer() {
                             <p>المملكة العربية السعودية</p>
                         </div>
                     </div>
-                    <div className="flex flex-wrap justify-start mt-2">
+                    <div className="flex flex-wrap lg:justify-start mt-2">
                         <div className="mx-2">
                             <FaPhone />
                         </div>
@@ -56,7 +59,7 @@ export default function Footer() {
                             <p className="text-sm">+966 53 780 2802</p>
                         </div>
                     </div>
-                    <div className="flex flex-wrap justify-start mt-2">
+                    <div className="flex flex-wrap lg:justify-start mt-2">
                         <div className="mx-2">
                             <FaEarthAmericas />
                         </div>
@@ -66,7 +69,7 @@ export default function Footer() {
                             </Link>
                         </div>
                     </div>
-                    <div className="flex flex-wrap justify-start mt-2">
+                    <div className="flex flex-wrap lg:justify-start mt-2">
                         <div className="mx-2">
                             <MdEmail />
                         </div>
