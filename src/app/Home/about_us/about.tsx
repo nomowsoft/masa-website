@@ -49,7 +49,7 @@ const About = () => {
         <div className="lg:col-span-6 place-self-center">
           <h1
             data-aos="fade-down"
-            className="text-3xl md:text-4xl lg:text-5xl text-center text-success lg:text-start font-extrabold tracking-tight leading-tight mb-10"
+            className="text-3xl md:text-3xl lg:text-4xl text-center text-success lg:text-start font-extrabold tracking-tight leading-tight mb-10"
           >
             حلول رقمية متكاملة باستخدام Odoo
           </h1>

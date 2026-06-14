@@ -9,7 +9,7 @@ const SectorItem = async ({ params }: SingleSectorPageProps) => {
     const response = await fetch(
         `https://jsonplaceholder.typicode.com/posts/${(await params).id}`
     );
-    console.log(response, "sfdf");
+
     if (!response.ok) {
         throw new Error("Failed to fetch article");
     }
@@ -48,10 +48,10 @@ const SectorItem = async ({ params }: SingleSectorPageProps) => {
                         <li>باقة النخبة</li>
                     </ul>
                     <div className="mt-10">
-                        <Link href="#" rel="stylesheet" className="bg-success text-white px-4 py-2 rounded-xl">
+                        <Link href="#" className="bg-success text-white px-4 py-2 rounded-xl">
                             رابط الديمو
                         </Link>
-                        <Link href="#" rel="stylesheet" className="bg-success text-white px-4 py-2 rounded-xl mx-4">
+                        <Link href="#" className="bg-success text-white px-4 py-2 rounded-xl mx-4">
                             أطلب الأن
                         </Link>
                     </div>
@@ -66,7 +66,7 @@ const SectorItem = async ({ params }: SingleSectorPageProps) => {
                 </div>
                 <div className="col-span-12 lg:col-span-7 px-5 mt-5">
                     <div className="flex justify-center items-center">
-                        <Image src="/sectors/repot.webp" alt="" width={1000} height={100} className="rounded-lg border border-success" />
+                        <Image src="/sectors/repot.webp" alt="تفاصيل القطاع" width={1000} height={100} className="rounded-lg border border-success" />
                     </div>
                 </div>
             </div>
