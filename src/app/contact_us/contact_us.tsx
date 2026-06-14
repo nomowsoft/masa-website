@@ -84,9 +84,9 @@ const Contactus = () => {
           <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
             <FormInput label="الأسم" type="text" id="name" placeholder="أدخل الاسم" required />
             <FormInput label="رقم الجوال" type="text" id="brand" placeholder="أدخل رقم الجوال" required />
-            <FormInput label="البريد الإلكتروني" type="text" id="price" placeholder="أدخل البريد الإلكتروني" required />
-            <FormInput label="اسم الشركة" type="number" id="item-weight" placeholder="اسم الشركة" required />
-            <FormInput label="الوظيفة" type="number" id="item-weight" placeholder="الوظيفة" required />
+            <FormInput label="البريد الإلكتروني" type="email" id="email" placeholder="أدخل البريد الإلكتروني" required />
+            <FormInput label="اسم الشركة" type="text" id="company-name" placeholder="اسم الشركة" required />
+            <FormInput label="الوظيفة" type="text" id="job-title" placeholder="الوظيفة" required />
             <FormSelect label="سبب التواصل" id="category" options={categories} defaultValue="" />
             <div className="sm:col-span-2">
               <FormTextarea

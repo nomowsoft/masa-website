@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="mt-0 mx-3 md:mx-0">
                     <Link href="/" className="flex items-center justify-center md:justify-start mb-4 sm:mb-0">
-                        <Image height={20} width={150} src="/navbar/logo_masa.svg" alt="Flowbite Logo" />
+                        <Image height={20} width={150} src="/navbar/logo_masa.svg" alt="شعار ماسا للتقنية والاستشارات" />
                     </Link>
                     <p className="text-success mt-3 text-lg text-justify py-3">
                      نقدم حلولًا رقمية متكاملة تساعد الشركات على تحقيق أقصى استفادة من التكنولوجيا لتعزيز كفاءتها التشغيلية وتطوير أعمالها. نحن نؤمن بأن الابتكار هو المفتاح لتحقيق النجاح في العصر الرقمي، ونعمل على توفير حلول تقنية متقدمة تلبي احتياجات مختلف القطاعات.                    </p>
@@ -57,8 +57,8 @@ export default function Footer() {
                             </div>
                             <div className="md:flex flex-wrap justify-end mt-2 items-center">
                                 <div>
-                                    <Link href="http://masa.sa" target="new">
-                                        <p className="text-lg">http://masa.sa</p>
+                                    <Link href="https://masa.sa" target="_blank" rel="noopener noreferrer">
+                                        <p className="text-lg">https://masa.sa</p>
                                     </Link>
                                 </div>
                                 <div className="mr-2 flex justify-center">
@@ -79,7 +79,7 @@ export default function Footer() {
                 </div>
             </div>
             <hr className="my-6 border-white sm:mx-auto lg:my-4" />
-            <span className="block text-lg text-success text-center py-3">2025 ©<Link href="https://www.odoo.com/partners/masa-lshrk-l-rby-lmtkhss-llstshrt-wtqny-lm-lwmt-988848?country_id=185" className="hover:underline" target="new">جميع الحقوق محفوظة لشركة ماسا</Link></span>
+            <span className="block text-lg text-success text-center py-3">2025 ©<Link href="https://www.odoo.com/partners/masa-lshrk-l-rby-lmtkhss-llstshrt-wtqny-lm-lwmt-988848?country_id=185" className="hover:underline" target="_blank" rel="noopener noreferrer">جميع الحقوق محفوظة لشركة ماسا</Link></span>
         </div>
     </footer>
   )
